@@ -1,0 +1,65 @@
+{
+  "id": "ulmus-minor",
+  "scientificName": "Ulmus minor",
+  "scientificNameAliases": ["Ulmus campestris", "Ulmus carpinifolia"],
+  "commonNameFr": "Orme champêtre",
+  "commonNameAliasesFr": ["Petit orme", "Orme rouge"],
+  "family": "Ulmaceae",
+  "summary": "Arbre commun des bocages et lisières de plaine, autrefois très répandu dans le paysage rural français avant la maladie de l'orme.",
+  "habitat": "Bocages, haies, lisières forestières, bords de cours d'eau, jusqu'à environ 1000 m d'altitude.",
+  "typicalSize": "Jusqu'à 30 m, souvent rabougri par la graphiose à l'état adulte.",
+  "traits": [
+    {
+      "id": "leaf-asymmetric-base",
+      "question": "Est-ce que la base de la feuille est nettement asymétrique, comme si elle était posée de travers sur sa tige ?",
+      "sketch": "ulmus-minor/leaf-asymmetric-base.svg",
+      "sketchAlt": "Feuille d'orme vue de face, le bas de la feuille (où elle rejoint la tige) est nettement décalé d'un côté par rapport à l'autre. Une flèche pointe cette zone asymétrique.",
+      "feedbackYes": "Très bon repère ! La base asymétrique de la feuille est un trait signature des ormes. Peu d'arbres présentent cette particularité aussi nettement.",
+      "feedbackNo": "L'orme champêtre a presque toujours une base de feuille très asymétrique. Si ce n'est pas le cas ici, il s'agit probablement d'une autre espèce.",
+      "extendedHelp": "Regarde l'endroit où la feuille rejoint sa petite tige (le pétiole). Sur la plupart des arbres, les deux côtés du bas de la feuille arrivent à la même hauteur. Sur l'orme, un côté descend plus bas que l'autre, donnant à la feuille un aspect 'de travers'.",
+      "category": "leaf-base",
+      "discriminantPower": "signature"
+    },
+    {
+      "id": "leaf-double-toothed-margin",
+      "question": "Le bord de la feuille présente-t-il des dents irrégulières, certaines grosses portant elles-mêmes de plus petites dents ?",
+      "sketch": "ulmus-minor/leaf-double-toothed-margin.svg",
+      "sketchAlt": "Gros plan sur le bord d'une feuille d'orme, montrant des dents principales qui portent à leur tour de petites dents secondaires.",
+      "feedbackYes": "Oui, c'est ce qu'on appelle une marge doublement dentée, très caractéristique des ormes et de quelques autres feuillus.",
+      "feedbackNo": "Les feuilles d'orme ont en général une marge doublement dentée bien visible. Une marge entière, simplement dentée ou lobée oriente vers une autre espèce.",
+      "extendedHelp": "Imagine que chaque grosse dent du bord de la feuille porte elle-même de plus petites dents : c'est ça, une marge doublement dentée. C'est différent d'une marge simplement dentée comme un châtaignier, ou d'une marge lobée comme un chêne.",
+      "category": "leaf-margin",
+      "discriminantPower": "strong"
+    },
+    {
+      "id": "leaf-rough-upper-side",
+      "question": "Quand tu passes le doigt sur le dessus de la feuille, est-ce que ça gratte un peu, comme du papier de verre très fin ?",
+      "sketch": "ulmus-minor/leaf-rough-upper-side.svg",
+      "sketchAlt": "Schéma d'un doigt passant sur la surface d'une feuille, avec une zone légèrement texturée sur le dessus.",
+      "feedbackYes": "Bien observé ! Cette légère rugosité du dessus de la feuille est typique de l'orme champêtre. Sur l'orme de montagne, c'est encore plus marqué.",
+      "feedbackNo": "L'orme champêtre a en général une face supérieure légèrement rugueuse. Une feuille parfaitement lisse oriente plutôt vers une autre espèce.",
+      "extendedHelp": "Ce trait demande de toucher la feuille. Frotte délicatement le bout du doigt sur le dessus (face brillante) : tu dois sentir un très léger grain, pas du tout lisse comme du laurier ou du houx.",
+      "category": "leaf-shape",
+      "discriminantPower": "moderate"
+    },
+    {
+      "id": "fruit-flat-winged-samara",
+      "question": "Si l'arbre porte des fruits (au printemps surtout), s'agit-il de petits disques plats verdâtres ressemblant à de minces pièces de monnaie ailées ?",
+      "sketch": "ulmus-minor/fruit-flat-winged-samara.svg",
+      "sketchAlt": "Schéma d'une samare d'orme : un disque plat avec une graine au centre, ressemblant à une fine pastille.",
+      "feedbackYes": "Excellent indice. Ces samares plates et arrondies sont uniques aux ormes. Aucun autre arbre commun de France ne produit ce type de fruit.",
+      "feedbackNo": "Les ormes produisent des samares très plates en forme de disque. Si tu vois des fruits différents (glands, hélicoptères, gousses, baies), il ne s'agit pas d'un orme.",
+      "extendedHelp": "Les samares d'orme apparaissent au début du printemps, souvent avant les feuilles. Elles ressemblent à de petites pastilles vertes, plates, avec une graine visible au centre. C'est très différent des 'hélicoptères' des érables ou des graines ailées des frênes.",
+      "category": "fruit",
+      "discriminantPower": "signature"
+    }
+  ],
+  "extendedInfo": "L'orme champêtre était l'un des arbres les plus emblématiques du bocage français, planté en alignement le long des routes. Depuis les années 1970, la graphiose, une maladie due à un champignon transporté par un coléoptère, a décimé les vieux sujets en France et en Europe. L'arbre survit aujourd'hui surtout sous forme de jeunes rejets dans les haies.",
+  "sources": [
+    "Tela Botanica — eFlore, fiche Ulmus minor",
+    "INPN — Fiche Ulmus minor",
+    "Flora Gallica (Tison & de Foucault, 2014)"
+  ],
+  "validatedBy": null,
+  "validatedAt": null
+}

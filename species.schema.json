@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arbres-id/schemas/species.schema.json",
+  "title": "Species",
+  "description": "Fiche d'identification d'une espèce d'arbre, avec ses traits caractéristiques pour la validation guidée.",
+  "type": "object",
+  "required": [
+    "id",
+    "scientificName",
+    "commonNameFr",
+    "family",
+    "summary",
+    "habitat",
+    "typicalSize",
+    "traits",
+    "sources"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Identifiant technique slug, généralement le nom scientifique en minuscules avec tirets."
+    },
+    "scientificName": {
+      "type": "string",
+      "description": "Nom scientifique exact, sans autorité, doit matcher PlantNet."
+    },
+    "scientificNameAliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Synonymes ou anciennes nomenclatures pour le matching."
+    },
+    "commonNameFr": {
+      "type": "string",
+      "description": "Nom d'usage français principal."
+    },
+    "commonNameAliasesFr": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "family": {
+      "type": "string",
+      "description": "Famille botanique. Ex: Ulmaceae."
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 250,
+      "description": "1 à 2 phrases de description, affichées en fiche récap."
+    },
+    "habitat": {
+      "type": "string",
+      "description": "Court descriptif de l'habitat typique."
+    },
+    "typicalSize": {
+      "type": "string",
+      "description": "Taille adulte typique. Ex: '20 à 30 m'."
+    },
+    "traits": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 5,
+      "items": { "$ref": "#/$defs/Trait" },
+      "description": "Liste ordonnée des traits utilisés pour la validation. L'ordre traduit la priorité d'évidence."
+    },
+    "extendedInfo": {
+      "type": "string",
+      "description": "Informations complémentaires affichées en mode exploration."
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" },
+      "description": "Références bibliographiques utilisées pour la fiche."
+    },
+    "validatedBy": {
+      "type": "string",
+      "description": "Nom du botaniste ayant validé la fiche."
+    },
+    "validatedAt": {
+      "type": "string",
+      "format": "date",
+      "description": "Date de validation au format ISO (YYYY-MM-DD)."
+    }
+  },
+  "$defs": {
+    "Trait": {
+      "type": "object",
+      "required": [
+        "id",
+        "question",
+        "sketch",
+        "sketchAlt",
+        "feedbackYes",
+        "feedbackNo",
+        "category",
+        "discriminantPower"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "question": {
+          "type": "string",
+          "description": "Question fermée en français courant."
+        },
+        "sketch": {
+          "type": "string",
+          "description": "Chemin relatif vers le SVG, dans /assets/sketches/."
+        },
+        "sketchAlt": {
+          "type": "string",
+          "description": "Texte alternatif descriptif pour l'accessibilité."
+        },
+        "feedbackYes": {
+          "type": "string",
+          "description": "Message court si l'utilisateur répond oui."
+        },
+        "feedbackNo": {
+          "type": "string",
+          "description": "Message court si l'utilisateur répond non."
+        },
+        "extendedHelp": {
+          "type": "string",
+          "description": "Explication enrichie pour 'Je ne sais pas' ou 'En savoir plus'."
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "leaf-shape",
+            "leaf-margin",
+            "leaf-base",
+            "leaf-arrangement",
+            "bark",
+            "silhouette",
+            "fruit",
+            "bud",
+            "flower",
+            "other"
+          ]
+        },
+        "discriminantPower": {
+          "type": "string",
+          "enum": ["signature", "strong", "moderate", "weak"]
+        }
+      }
+    }
+  }
+}
