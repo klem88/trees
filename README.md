@@ -17,43 +17,55 @@ Une application qui aide l'utilisateur à **valider** une identification PlantNe
 
 - **Cible** : 30 à 50 arbres communs de France métropolitaine
 - **Plateforme** : PWA (Progressive Web App)
-- **Mode hors ligne** : oui pour le carnet et la consultation des fiches déjà identifiées ; pas pour PlantNet (nécessite réseau)
+- **Mode hors ligne** : oui pour le carnet et la consultation des fiches ; pas pour l'identification PlantNet (réseau requis)
 - **Saisonnalité** : feuilles présentes (mode hiver renvoyé à plus tard)
 
 ## Structure du dépôt
 
 ```
 arbres-id/
-├── README.md                  ← ce fichier
+├── README.md                   ce fichier
 ├── docs/
-│   ├── 01-vision.md           Vision et objectifs pédagogiques
-│   ├── 02-specifications.md   Specs fonctionnelles détaillées
-│   ├── 03-architecture.md     Architecture technique
-│   ├── 04-data-model.md       Modèle de données (schéma JSON espèces)
-│   ├── 05-content-guide.md    Guide de constitution du contenu botanique
-│   ├── 06-sketches-guide.md   Guide de production des croquis
-│   ├── 07-roadmap.md          Feuille de route et jalons
-│   ├── 08-decisions-log.md    Journal des décisions (ADR allégé)
-│   └── 09-methodology.md      Méthodologie de constitution du dataset
+│   ├── 01-vision.md            Vision et objectifs pédagogiques
+│   ├── 02-specifications.md    Specs fonctionnelles détaillées
+│   ├── 03-architecture.md      Architecture technique
+│   ├── 04-data-model.md        Modèle de données (schéma JSON espèces)
+│   ├── 05-content-guide.md     Guide de constitution du contenu botanique
+│   ├── 06-sketches-guide.md    Guide de production des croquis
+│   ├── 07-roadmap.md           Feuille de route et jalons
+│   ├── 08-decisions-log.md     Journal des décisions (ADR allégé)
+│   ├── 09-methodology.md       Méthodologie de constitution du dataset
+│   └── conversation-cadrage.md Transcription de la conversation initiale
 ├── data/
 │   ├── schemas/
-│   │   └── species.schema.json    Schéma JSON validateur d'une espèce
+│   │   └── species.schema.json     Schéma JSON validateur (à produire en phase 1)
 │   └── species/
-│       └── *.json                  Une fiche par espèce
-├── assets/
-│   └── sketches/                   Croquis SVG par trait
-└── conversation-cadrage.md     Transcription de la conversation initiale
+│       └── *.json                  Une fiche JSON par espèce
+└── assets/
+    └── sketches/
+        └── {species-id}/
+            └── {trait-id}.svg      Un croquis SVG par trait
 ```
+
+> **Phase 2 (prototype PWA)** : le code source Vite/framework ira dans `src/`, et `data/` + `assets/` seront
+> vraisemblablement déplacés dans `public/` pour être servis statiquement et mis en cache par le service worker.
+
+## Conventions
+
+- **Langue** : français pour tout le contenu (questions, feedbacks, fiches, documentation). Anglais pour les clés
+  techniques, identifiants et noms de fichiers (`ulmus-minor`, `leaf-asymmetric-base`, `traitFrequencyInSpecies`…).
+- **Nommage des fichiers** : `kebab-case` en minuscules, à partir du nom scientifique latin.
 
 ## État du projet
 
-**Phase actuelle** : cadrage terminé, démarrage de la phase contenu.
+**Phase actuelle** : phase 1 — production du contenu pilote.
 
 **Prochaines étapes** :
-1. Définir le style visuel des croquis sur 1-2 espèces test
-2. Rédiger la fiche complète de 3 à 5 espèces "pilotes" (chêne pédonculé, hêtre, bouleau, érable champêtre, orme champêtre)
-3. Faire valider par le botaniste référent
-4. Figer le schéma JSON
-5. Démarrer le prototype PWA
+1. Rédiger les fiches des 5 espèces pilotes (chêne pédonculé, hêtre, bouleau, érable champêtre, orme champêtre)
+2. Définir et figer le style visuel des croquis (V3 terracotta, cf. `docs/09-methodology.md`)
+3. Produire les croquis SVG associés
+4. Valider l'ensemble avec le botaniste référent
+5. Figer `data/schemas/species.schema.json`
+6. Démarrer le prototype PWA (phase 2)
 
-Voir [`docs/07-roadmap.md`](docs/07-roadmap.md) pour le détail.
+Voir [`docs/07-roadmap.md`](docs/07-roadmap.md) pour le détail complet.
