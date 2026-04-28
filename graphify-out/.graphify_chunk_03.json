@@ -1,0 +1,492 @@
+{
+  "nodes": [
+    {
+      "id": "ulmus_minor_species",
+      "label": "Ulmus minor (Field Elm)",
+      "file_type": "document",
+      "source_file": "assets/sketches/ulmus-minor",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "bark_grey_fissured_plates_svg",
+      "label": "Bark: Grey Fissured Rectangular Plates (SVG sketch)",
+      "file_type": "image",
+      "source_file": "assets/sketches/ulmus-minor/bark-grey-fissured-plates.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "bark_grey_fissured_plates_concept",
+      "label": "Bark Feature: Grey-Brown Fissured Rectangular Plates",
+      "file_type": "document",
+      "source_file": "assets/sketches/ulmus-minor/bark-grey-fissured-plates.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fruit_flat_winged_samara_svg",
+      "label": "Fruit: Flat Winged Samara (SVG sketch)",
+      "file_type": "image",
+      "source_file": "assets/sketches/ulmus-minor/fruit-flat-winged-samara.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fruit_flat_disc_samara_concept",
+      "label": "Fruit Feature: Flat Disc Samara with Central Seed",
+      "file_type": "document",
+      "source_file": "assets/sketches/ulmus-minor/fruit-flat-winged-samara.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "leaf_asymmetric_base_svg",
+      "label": "Leaf: Asymmetric Base (SVG sketch)",
+      "file_type": "image",
+      "source_file": "assets/sketches/ulmus-minor/leaf-asymmetric-base.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "leaf_asymmetric_base_concept",
+      "label": "Leaf Feature: Asymmetric (Unequal) Leaf Base",
+      "file_type": "document",
+      "source_file": "assets/sketches/ulmus-minor/leaf-asymmetric-base.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "leaf_double_toothed_margin_svg",
+      "label": "Leaf: Double-Toothed Margin (SVG sketch)",
+      "file_type": "image",
+      "source_file": "assets/sketches/ulmus-minor/leaf-double-toothed-margin.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "leaf_double_toothed_margin_concept",
+      "label": "Leaf Feature: Doubly Serrate Margin (Two Levels of Teeth)",
+      "file_type": "document",
+      "source_file": "assets/sketches/ulmus-minor/leaf-double-toothed-margin.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "leaf_rough_upper_side_svg",
+      "label": "Leaf: Rough Upper Side (SVG sketch)",
+      "file_type": "image",
+      "source_file": "assets/sketches/ulmus-minor/leaf-rough-upper-side.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "leaf_rough_upper_side_concept",
+      "label": "Leaf Feature: Rough (Scabrous) Upper Surface",
+      "file_type": "document",
+      "source_file": "assets/sketches/ulmus-minor/leaf-rough-upper-side.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "samara_acer_concept",
+      "label": "Comparator: Maple Samara (Helical Wing)",
+      "file_type": "document",
+      "source_file": "assets/sketches/ulmus-minor/fruit-flat-winged-samara.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "samara_fraxinus_concept",
+      "label": "Comparator: Ash Samara (Elongated Wing)",
+      "file_type": "document",
+      "source_file": "assets/sketches/ulmus-minor/fruit-flat-winged-samara.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "bark_smooth_comparator_concept",
+      "label": "Comparator: Smooth Bark (Beech / Young Elm)",
+      "file_type": "document",
+      "source_file": "assets/sketches/ulmus-minor/bark-grey-fissured-plates.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "leaf_symmetric_base_comparator_concept",
+      "label": "Comparator: Symmetric Leaf Base",
+      "file_type": "document",
+      "source_file": "assets/sketches/ulmus-minor/leaf-asymmetric-base.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "leaf_simple_margin_comparator_concept",
+      "label": "Comparator: Simply Serrate Leaf Margin",
+      "file_type": "document",
+      "source_file": "assets/sketches/ulmus-minor/leaf-double-toothed-margin.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "leaf_smooth_surface_comparator_concept",
+      "label": "Comparator: Smooth Leaf Surface (e.g. laurel, holly, horse chestnut)",
+      "file_type": "document",
+      "source_file": "assets/sketches/ulmus-minor/leaf-rough-upper-side.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "bark_grey_fissured_plates_svg",
+      "target": "ulmus_minor_species",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/bark-grey-fissured-plates.svg",
+      "source_location": "<title>",
+      "weight": 1.0
+    },
+    {
+      "source": "bark_grey_fissured_plates_svg",
+      "target": "bark_grey_fissured_plates_concept",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/bark-grey-fissured-plates.svg",
+      "source_location": "<title> + <desc>",
+      "weight": 1.0
+    },
+    {
+      "source": "bark_grey_fissured_plates_concept",
+      "target": "ulmus_minor_species",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/bark-grey-fissured-plates.svg",
+      "source_location": "<desc>: 'écorce d'un orme champêtre adulte'",
+      "weight": 1.0
+    },
+    {
+      "source": "bark_grey_fissured_plates_concept",
+      "target": "bark_smooth_comparator_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/bark-grey-fissured-plates.svg",
+      "source_location": "<text>: 'ailleurs : lisse (hêtre, jeune orme)'",
+      "weight": 0.7
+    },
+    {
+      "source": "fruit_flat_winged_samara_svg",
+      "target": "ulmus_minor_species",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/fruit-flat-winged-samara.svg",
+      "source_location": "<title>",
+      "weight": 1.0
+    },
+    {
+      "source": "fruit_flat_winged_samara_svg",
+      "target": "fruit_flat_disc_samara_concept",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/fruit-flat-winged-samara.svg",
+      "source_location": "<title> + <desc>",
+      "weight": 1.0
+    },
+    {
+      "source": "fruit_flat_disc_samara_concept",
+      "target": "ulmus_minor_species",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/fruit-flat-winged-samara.svg",
+      "source_location": "<desc>: 'samare de l'orme est un disque plat arrondi'",
+      "weight": 1.0
+    },
+    {
+      "source": "fruit_flat_disc_samara_concept",
+      "target": "samara_acer_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/fruit-flat-winged-samara.svg",
+      "source_location": "<text>: 'érable : aile en hélice'",
+      "weight": 0.7
+    },
+    {
+      "source": "fruit_flat_disc_samara_concept",
+      "target": "samara_fraxinus_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/fruit-flat-winged-samara.svg",
+      "source_location": "<text>: 'frêne : aile allongée'",
+      "weight": 0.7
+    },
+    {
+      "source": "leaf_asymmetric_base_svg",
+      "target": "ulmus_minor_species",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/leaf-asymmetric-base.svg",
+      "source_location": "<title>",
+      "weight": 1.0
+    },
+    {
+      "source": "leaf_asymmetric_base_svg",
+      "target": "leaf_asymmetric_base_concept",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/leaf-asymmetric-base.svg",
+      "source_location": "<title> + <desc>",
+      "weight": 1.0
+    },
+    {
+      "source": "leaf_asymmetric_base_concept",
+      "target": "ulmus_minor_species",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/leaf-asymmetric-base.svg",
+      "source_location": "<title>: 'Base asymétrique de la feuille — Orme champêtre'",
+      "weight": 1.0
+    },
+    {
+      "source": "leaf_asymmetric_base_concept",
+      "target": "leaf_symmetric_base_comparator_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/leaf-asymmetric-base.svg",
+      "source_location": "<text>: 'ailleurs : symétrique'",
+      "weight": 0.7
+    },
+    {
+      "source": "leaf_double_toothed_margin_svg",
+      "target": "ulmus_minor_species",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/leaf-double-toothed-margin.svg",
+      "source_location": "<title>",
+      "weight": 1.0
+    },
+    {
+      "source": "leaf_double_toothed_margin_svg",
+      "target": "leaf_double_toothed_margin_concept",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/leaf-double-toothed-margin.svg",
+      "source_location": "<title> + <desc>",
+      "weight": 1.0
+    },
+    {
+      "source": "leaf_double_toothed_margin_concept",
+      "target": "ulmus_minor_species",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/leaf-double-toothed-margin.svg",
+      "source_location": "<title>: 'Marge doublement dentée — Orme champêtre'",
+      "weight": 1.0
+    },
+    {
+      "source": "leaf_double_toothed_margin_concept",
+      "target": "leaf_simple_margin_comparator_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/leaf-double-toothed-margin.svg",
+      "source_location": "<text>: 'ailleurs : marge simple'",
+      "weight": 0.7
+    },
+    {
+      "source": "leaf_rough_upper_side_svg",
+      "target": "ulmus_minor_species",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/leaf-rough-upper-side.svg",
+      "source_location": "<title>",
+      "weight": 1.0
+    },
+    {
+      "source": "leaf_rough_upper_side_svg",
+      "target": "leaf_rough_upper_side_concept",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/leaf-rough-upper-side.svg",
+      "source_location": "<title> + <desc>",
+      "weight": 1.0
+    },
+    {
+      "source": "leaf_rough_upper_side_concept",
+      "target": "ulmus_minor_species",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/leaf-rough-upper-side.svg",
+      "source_location": "<title>: 'Dessus de feuille rugueux — Orme champêtre'",
+      "weight": 1.0
+    },
+    {
+      "source": "leaf_rough_upper_side_concept",
+      "target": "leaf_smooth_surface_comparator_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor/leaf-rough-upper-side.svg",
+      "source_location": "<text>: 'lisse — ailleurs (type laurier, houx, marronnier)'",
+      "weight": 0.7
+    },
+    {
+      "source": "leaf_asymmetric_base_concept",
+      "target": "leaf_double_toothed_margin_concept",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "assets/sketches/ulmus-minor",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "leaf_asymmetric_base_concept",
+      "target": "leaf_rough_upper_side_concept",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "assets/sketches/ulmus-minor",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "leaf_double_toothed_margin_concept",
+      "target": "leaf_rough_upper_side_concept",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "assets/sketches/ulmus-minor",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "bark_grey_fissured_plates_concept",
+      "target": "leaf_asymmetric_base_concept",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "assets/sketches/ulmus-minor",
+      "source_location": null,
+      "weight": 0.7
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "ulmus_minor_diagnostic_leaf_features",
+      "label": "Ulmus minor Diagnostic Leaf Features",
+      "nodes": [
+        "ulmus_minor_species",
+        "leaf_asymmetric_base_concept",
+        "leaf_double_toothed_margin_concept",
+        "leaf_rough_upper_side_concept"
+      ],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "assets/sketches/ulmus-minor"
+    },
+    {
+      "id": "ulmus_minor_full_identification_set",
+      "label": "Ulmus minor Full Identification Feature Set",
+      "nodes": [
+        "ulmus_minor_species",
+        "bark_grey_fissured_plates_concept",
+        "fruit_flat_disc_samara_concept",
+        "leaf_asymmetric_base_concept",
+        "leaf_double_toothed_margin_concept",
+        "leaf_rough_upper_side_concept"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "assets/sketches/ulmus-minor"
+    },
+    {
+      "id": "ulmus_minor_svg_sketches_chunk03",
+      "label": "Ulmus minor SVG Sketch Files (Chunk 03)",
+      "nodes": [
+        "bark_grey_fissured_plates_svg",
+        "fruit_flat_winged_samara_svg",
+        "leaf_asymmetric_base_svg",
+        "leaf_double_toothed_margin_svg",
+        "leaf_rough_upper_side_svg"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/ulmus-minor"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

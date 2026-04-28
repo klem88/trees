@@ -1,0 +1,627 @@
+{
+  "nodes": [
+    {
+      "id": "fagus_sylvatica_species",
+      "label": "Fagus sylvatica (European Beech)",
+      "file_type": "document",
+      "source_file": "assets/sketches/fagus-sylvatica",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "bark_smooth_grey_svg",
+      "label": "Bark: Smooth and Grey (SVG illustration)",
+      "file_type": "image",
+      "source_file": "assets/sketches/fagus-sylvatica/bark-smooth-grey.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "bark_smooth_grey_concept",
+      "label": "Smooth Grey Bark",
+      "file_type": "document",
+      "source_file": "assets/sketches/fagus-sylvatica/bark-smooth-grey.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "bark_lenticels_concept",
+      "label": "Horizontal Lenticels",
+      "file_type": "document",
+      "source_file": "assets/sketches/fagus-sylvatica/bark-smooth-grey.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "bud_fusiform_elongated_svg",
+      "label": "Bud: Fusiform Elongated (SVG illustration)",
+      "file_type": "image",
+      "source_file": "assets/sketches/fagus-sylvatica/bud-fusiform-elongated.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "bud_fusiform_concept",
+      "label": "Fusiform Elongated Bud",
+      "file_type": "document",
+      "source_file": "assets/sketches/fagus-sylvatica/bud-fusiform-elongated.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "bud_divergent_45deg_concept",
+      "label": "Bud Diverging 45 Degrees from Twig",
+      "file_type": "document",
+      "source_file": "assets/sketches/fagus-sylvatica/bud-fusiform-elongated.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "bud_brown_roux_color",
+      "label": "Bud Color: Shiny Brown-Russet",
+      "file_type": "document",
+      "source_file": "assets/sketches/fagus-sylvatica/bud-fusiform-elongated.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "bud_20mm_size",
+      "label": "Bud Length Approximately 20mm",
+      "file_type": "document",
+      "source_file": "assets/sketches/fagus-sylvatica/bud-fusiform-elongated.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fruit_trigone_beechnut_svg",
+      "label": "Fruit: Trigone Beechnut (SVG illustration)",
+      "file_type": "image",
+      "source_file": "assets/sketches/fagus-sylvatica/fruit-trigone-beechnut.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fruit_faine_trigone_concept",
+      "label": "Beechnut (Faîne): Trigone — 3 Faces",
+      "file_type": "document",
+      "source_file": "assets/sketches/fagus-sylvatica/fruit-trigone-beechnut.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fruit_cupule_soft_bristles",
+      "label": "Cupule with Soft Bristles (Soies Molles)",
+      "file_type": "document",
+      "source_file": "assets/sketches/fagus-sylvatica/fruit-trigone-beechnut.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fruit_shiny_brown_color",
+      "label": "Fruit Color: Shiny Brown",
+      "file_type": "document",
+      "source_file": "assets/sketches/fagus-sylvatica/fruit-trigone-beechnut.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "leaf_oval_entire_margin_svg",
+      "label": "Leaf: Oval with Entire Margin (SVG illustration)",
+      "file_type": "image",
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-oval-entire-margin.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "leaf_oval_shape_concept",
+      "label": "Leaf Shape: Oval",
+      "file_type": "document",
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-oval-entire-margin.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "leaf_entire_margin_concept",
+      "label": "Leaf Margin: Entire or Slightly Undulate (No Teeth)",
+      "file_type": "document",
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-oval-entire-margin.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "leaf_paired_veins_concept",
+      "label": "Leaf Venation: 6 Pairs of Lateral Veins",
+      "file_type": "document",
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-oval-entire-margin.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "leaf_silky_at_opening_svg",
+      "label": "Leaf: Silky Hairs at Bud Burst (SVG illustration)",
+      "file_type": "image",
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-silky-at-opening.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "leaf_silky_hairs_spring_concept",
+      "label": "Leaf Margin: Long Silky Silver Hairs at Bud Burst (April–May)",
+      "file_type": "document",
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-silky-at-opening.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "leaf_smooth_summer_concept",
+      "label": "Leaf Margin: Smooth in Summer",
+      "file_type": "document",
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-silky-at-opening.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "carpinus_betulus_comparison",
+      "label": "Carpinus betulus (Hornbeam) — Comparison Species",
+      "file_type": "document",
+      "source_file": "assets/sketches/fagus-sylvatica/bud-fusiform-elongated.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "bark_smooth_grey_svg",
+      "target": "fagus_sylvatica_species",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/bark-smooth-grey.svg",
+      "source_location": "title#title",
+      "weight": 1.0
+    },
+    {
+      "source": "bark_smooth_grey_svg",
+      "target": "bark_smooth_grey_concept",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/bark-smooth-grey.svg",
+      "source_location": "title#title",
+      "weight": 1.0
+    },
+    {
+      "source": "fagus_sylvatica_species",
+      "target": "bark_smooth_grey_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/bark-smooth-grey.svg",
+      "source_location": "text: 'lisse et gris clair — même sur vieux arbre'",
+      "weight": 1.0
+    },
+    {
+      "source": "fagus_sylvatica_species",
+      "target": "bark_lenticels_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/bark-smooth-grey.svg",
+      "source_location": "comment: 'Quelques lenticelles horizontales très discrètes'",
+      "weight": 1.0
+    },
+    {
+      "source": "bark_smooth_grey_concept",
+      "target": "bark_lenticels_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "assets/sketches/fagus-sylvatica/bark-smooth-grey.svg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "bud_fusiform_elongated_svg",
+      "target": "fagus_sylvatica_species",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/bud-fusiform-elongated.svg",
+      "source_location": "title#title",
+      "weight": 1.0
+    },
+    {
+      "source": "bud_fusiform_elongated_svg",
+      "target": "bud_fusiform_concept",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/bud-fusiform-elongated.svg",
+      "source_location": "title#title",
+      "weight": 1.0
+    },
+    {
+      "source": "fagus_sylvatica_species",
+      "target": "bud_fusiform_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/bud-fusiform-elongated.svg",
+      "source_location": "desc#desc: 'bourgeon du hêtre en hiver est très allongé en forme de fuseau'",
+      "weight": 1.0
+    },
+    {
+      "source": "fagus_sylvatica_species",
+      "target": "bud_divergent_45deg_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/bud-fusiform-elongated.svg",
+      "source_location": "desc#desc: 'pointe en biais à 45° du rameau'",
+      "weight": 1.0
+    },
+    {
+      "source": "fagus_sylvatica_species",
+      "target": "bud_brown_roux_color",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/bud-fusiform-elongated.svg",
+      "source_location": "desc#desc: 'brun-roux brillant'; text: 'brun-roux brillant'",
+      "weight": 1.0
+    },
+    {
+      "source": "fagus_sylvatica_species",
+      "target": "bud_20mm_size",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/bud-fusiform-elongated.svg",
+      "source_location": "text: '≈ 20 mm'",
+      "weight": 1.0
+    },
+    {
+      "source": "bud_fusiform_concept",
+      "target": "carpinus_betulus_comparison",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/bud-fusiform-elongated.svg",
+      "source_location": "text: 'charme : court, olive-brun'",
+      "weight": 1.0
+    },
+    {
+      "source": "fruit_trigone_beechnut_svg",
+      "target": "fagus_sylvatica_species",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/fruit-trigone-beechnut.svg",
+      "source_location": "title#title",
+      "weight": 1.0
+    },
+    {
+      "source": "fruit_trigone_beechnut_svg",
+      "target": "fruit_faine_trigone_concept",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/fruit-trigone-beechnut.svg",
+      "source_location": "title#title",
+      "weight": 1.0
+    },
+    {
+      "source": "fagus_sylvatica_species",
+      "target": "fruit_faine_trigone_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/fruit-trigone-beechnut.svg",
+      "source_location": "desc#desc: 'fruit brun brillant à trois faces avec une arête vive centrale'; text: 'faîne 3 faces'",
+      "weight": 1.0
+    },
+    {
+      "source": "fagus_sylvatica_species",
+      "target": "fruit_cupule_soft_bristles",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/fruit-trigone-beechnut.svg",
+      "source_location": "title#title: 'cupule à soies molles'; text: 'cupule à soies molles'",
+      "weight": 1.0
+    },
+    {
+      "source": "fagus_sylvatica_species",
+      "target": "fruit_shiny_brown_color",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/fruit-trigone-beechnut.svg",
+      "source_location": "text: 'brun brillant'",
+      "weight": 1.0
+    },
+    {
+      "source": "fruit_faine_trigone_concept",
+      "target": "fruit_cupule_soft_bristles",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "assets/sketches/fagus-sylvatica/fruit-trigone-beechnut.svg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "leaf_oval_entire_margin_svg",
+      "target": "fagus_sylvatica_species",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-oval-entire-margin.svg",
+      "source_location": "title#title",
+      "weight": 1.0
+    },
+    {
+      "source": "leaf_oval_entire_margin_svg",
+      "target": "leaf_oval_shape_concept",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-oval-entire-margin.svg",
+      "source_location": "title#title",
+      "weight": 1.0
+    },
+    {
+      "source": "leaf_oval_entire_margin_svg",
+      "target": "leaf_entire_margin_concept",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-oval-entire-margin.svg",
+      "source_location": "title#title",
+      "weight": 1.0
+    },
+    {
+      "source": "fagus_sylvatica_species",
+      "target": "leaf_oval_shape_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-oval-entire-margin.svg",
+      "source_location": "desc#desc: 'feuille du hêtre a un bord entier ou très légèrement ondulé, sans dents'",
+      "weight": 1.0
+    },
+    {
+      "source": "fagus_sylvatica_species",
+      "target": "leaf_entire_margin_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-oval-entire-margin.svg",
+      "source_location": "text: 'bord entier ou ondulé sans dents'",
+      "weight": 1.0
+    },
+    {
+      "source": "fagus_sylvatica_species",
+      "target": "leaf_paired_veins_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-oval-entire-margin.svg",
+      "source_location": "comment: '6 paires de nervures'",
+      "weight": 1.0
+    },
+    {
+      "source": "leaf_entire_margin_concept",
+      "target": "carpinus_betulus_comparison",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-oval-entire-margin.svg",
+      "source_location": "text: 'charme : bord denté'",
+      "weight": 1.0
+    },
+    {
+      "source": "leaf_silky_at_opening_svg",
+      "target": "fagus_sylvatica_species",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-silky-at-opening.svg",
+      "source_location": "title#title",
+      "weight": 1.0
+    },
+    {
+      "source": "leaf_silky_at_opening_svg",
+      "target": "leaf_silky_hairs_spring_concept",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-silky-at-opening.svg",
+      "source_location": "title#title",
+      "weight": 1.0
+    },
+    {
+      "source": "fagus_sylvatica_species",
+      "target": "leaf_silky_hairs_spring_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-silky-at-opening.svg",
+      "source_location": "desc#desc: 'longs poils soyeux argentés garnissent tout le pourtour'; text: 'avril – mai seulement'",
+      "weight": 1.0
+    },
+    {
+      "source": "fagus_sylvatica_species",
+      "target": "leaf_smooth_summer_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-silky-at-opening.svg",
+      "source_location": "desc#desc: 'même marge lisse en été'; text: 'en été : lisse'",
+      "weight": 1.0
+    },
+    {
+      "source": "leaf_silky_hairs_spring_concept",
+      "target": "leaf_smooth_summer_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-silky-at-opening.svg",
+      "source_location": "desc#desc: seasonal contrast spring vs summer",
+      "weight": 1.0
+    },
+    {
+      "source": "leaf_oval_shape_concept",
+      "target": "leaf_silky_hairs_spring_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-silky-at-opening.svg",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "leaf_oval_shape_concept",
+      "target": "leaf_paired_veins_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-oval-entire-margin.svg",
+      "source_location": null,
+      "weight": 0.8
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "fagus_sylvatica_diagnostic_features",
+      "label": "Fagus sylvatica Key Diagnostic Features",
+      "nodes": [
+        "fagus_sylvatica_species",
+        "bark_smooth_grey_concept",
+        "bud_fusiform_concept",
+        "bud_divergent_45deg_concept",
+        "fruit_faine_trigone_concept",
+        "fruit_cupule_soft_bristles",
+        "leaf_oval_shape_concept",
+        "leaf_entire_margin_concept",
+        "leaf_silky_hairs_spring_concept"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica"
+    },
+    {
+      "id": "leaf_seasonal_features",
+      "label": "Fagus sylvatica Leaf Seasonal Characteristics",
+      "nodes": [
+        "fagus_sylvatica_species",
+        "leaf_silky_hairs_spring_concept",
+        "leaf_smooth_summer_concept",
+        "leaf_oval_shape_concept",
+        "leaf_entire_margin_concept",
+        "leaf_paired_veins_concept"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica/leaf-silky-at-opening.svg"
+    },
+    {
+      "id": "fagus_vs_carpinus_comparison_set",
+      "label": "Fagus sylvatica vs Carpinus betulus Comparison Features",
+      "nodes": [
+        "fagus_sylvatica_species",
+        "carpinus_betulus_comparison",
+        "bud_fusiform_concept",
+        "leaf_entire_margin_concept"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/sketches/fagus-sylvatica"
+    },
+    {
+      "id": "bark_winter_id_features",
+      "label": "Fagus sylvatica Winter Bark and Bud Identification",
+      "nodes": [
+        "fagus_sylvatica_species",
+        "bark_smooth_grey_concept",
+        "bark_lenticels_concept",
+        "bud_fusiform_concept",
+        "bud_divergent_45deg_concept",
+        "bud_brown_roux_color",
+        "bud_20mm_size"
+      ],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "assets/sketches/fagus-sylvatica"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
