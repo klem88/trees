@@ -11,12 +11,12 @@
 **Objectif** : valider la méthode de constitution du contenu sur un échantillon réduit, avant de passer à l'échelle.
 
 **Livrables** :
-- [ ] Fiche complète pour 5 espèces pilotes : chêne pédonculé, hêtre, bouleau verruqueux, érable champêtre, orme champêtre
+- [ ] Fiche complète pour 6 espèces pilotes : chêne pédonculé, hêtre, bouleau verruqueux, érable champêtre, orme champêtre, **pin sylvestre**
 - [ ] Style visuel des croquis défini (1 à 2 essais par espèce)
 - [ ] Schéma JSON `species.schema.json` figé
 - [ ] Validation botaniste de l'ensemble
 
-**Critère de fin** : si le botaniste valide les 5 fiches sans changement majeur de méthode, on passe à la phase 2.
+**Critère de fin** : si le botaniste valide les 6 fiches sans changement majeur de méthode, on passe à la phase 2.
 
 ### Phase 2 — Prototype technique
 **Objectif** : valider l'expérience utilisateur de bout en bout sur les 5 espèces pilotes.

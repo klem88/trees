@@ -40,8 +40,12 @@ Un caractère discriminant utilisé dans la validation.
 | `feedbackYes` | string | Message pédagogique court si l'utilisateur répond oui. Ex: `La base asymétrique de la feuille est très typique des ormes.` |
 | `feedbackNo` | string | Message pédagogique court si l'utilisateur répond non. Ex: `L'orme a presque toujours une base de feuille asymétrique. On peut donc l'écarter.` |
 | `extendedHelp` | string (optionnel) | Explication enrichie affichée si l'utilisateur clique sur "En savoir plus" ou "Je ne sais pas". Peut introduire le vocabulaire botanique précis. |
-| `category` | enum | Catégorie du trait, parmi : `leaf-shape`, `leaf-margin`, `leaf-base`, `leaf-arrangement`, `bark`, `silhouette`, `fruit`, `bud`, `flower`, `other`. Sert au regroupement / filtrage et à l'analyse de couverture. |
-| `discriminantPower` | enum | Indication qualitative de la force discriminante : `signature` (très spécifique à l'espèce), `strong`, `moderate`, `weak`. |
+| `category` | enum | Catégorie du trait, parmi : `leaf-shape`, `leaf-margin`, `leaf-base`, `leaf-arrangement`, `needle`, `bark`, `silhouette`, `fruit`, `bud`, `flower`, `other`. `needle` couvre les aiguilles et feuilles aciculaires des conifères. |
+| `discriminantPower` | enum | Résumé qualitatif de la force discriminante pour l'affichage : `signature` (très spécifique à l'espèce), `strong`, `moderate`, `weak`. |
+| `traitFrequencyInSpecies` | enum | Fréquence d'observation du trait sur l'espèce : `always` (0,95), `usually` (0,75), `sometimes` (0,50). Utilisé par le moteur bayésien. |
+| `traitRarityAmongTrees` | enum | Rareté du trait parmi les autres espèces d'arbres : `unique` (0,05), `rare` (0,25), `common` (0,50). Utilisé par le moteur bayésien. |
+| `seasonality` | string[] | Saisons où le trait est observable : `spring`, `summer`, `autumn`, `winter`. L'app filtre les questions selon la saison courante. |
+| `sources` | enum[] | Sources concordantes ayant établi ce trait (**minimum 2 requis**). Valeurs par ordre de priorité : `flora-gallica`, `tela-botanica`, `inpn`, `coste`, `rameau`, `wikimedia-commons`, `other`. Si deux sources sont en désaccord, descendre `traitFrequencyInSpecies` à `usually` ou `sometimes` et signaler dans `extendedHelp`. |
 
 ### Carnet (`NotebookEntry`) — stockage local uniquement
 
