@@ -1,0 +1,89 @@
+{
+  "id": "betula-pendula",
+  "scientificName": "Betula pendula",
+  "scientificNameAliases": ["Betula verrucosa", "Betula alba subsp. pendula"],
+  "commonNameFr": "Bouleau verruqueux",
+  "commonNameAliasesFr": ["Bouleau commun", "Bouleau blanc", "Bouleau pleureur", "Boulard"],
+  "family": "Betulaceae",
+  "summary": "Arbre élancé à l'écorce blanche se détachant en fines bandes, aux rameaux fins et pendants. Pionnier rapide des sols pauvres, des friches et des lisières.",
+  "habitat": "Friches, landes, lisières, clairières, coupes forestières, bords de chemins, sols pauvres et acides (sables, tourbes, granites). De la plaine jusqu'à environ 1 800 m. Espèce pionnière de pleine lumière, très peu exigeante mais peu tolérante à l'ombre des forêts mûres.",
+  "typicalSize": "15 à 25 m, parfois jusqu'à 30 m, pour une longévité courte de 80 à 100 ans.",
+  "traits": [
+    {
+      "id": "bark-white-peeling-horizontal",
+      "question": "L'écorce du tronc est-elle d'un blanc lumineux, presque crayeux, et se détache-t-elle en fines bandes horizontales comme du papier qui pèle ?",
+      "sketch": "betula-pendula/bark-white-peeling-horizontal.svg",
+      "sketchAlt": "Schéma d'un tronc vu de face, écorce d'un blanc éclatant traversée de fines lignes horizontales sombres (lenticelles). Sur un côté, des lambeaux de l'écorce se détachent en pelures fines comme du papier. À la base du tronc, des losanges noirs marquent le passage à une écorce crevassée. Une flèche indique 'pèle horizontalement' et une autre 'losanges noirs à la base'.",
+      "feedbackYes": "Cette écorce blanche qui pèle en bandes horizontales est la signature absolue du bouleau — aucun autre arbre commun de France n'a cette combinaison de blancheur et de pelure horizontale.",
+      "feedbackNo": "Une écorce qui ne pèle pas, qui pèle verticalement, ou qui n'est pas franchement blanche oriente vers une autre espèce. Attention cependant : les très jeunes bouleaux ont une écorce d'abord brun-rougeâtre avant de blanchir vers 5-10 ans.",
+      "extendedHelp": "L'écorce du bouleau est unique. Elle se détache en fines pelures horizontales, presque transparentes, comme du papier de soie — on peut souvent en soulever un petit lambeau du bout de l'ongle. Sur les vieux sujets, la base du tronc devient noire et crevassée en losanges, contrastant avec la blancheur du haut. À ne pas confondre avec le platane (qui pèle en grandes plaques irrégulières beige-vert-jaune, jamais blanc pur ni en bandes horizontales) ni avec le tremble (écorce gris-vert plutôt lisse, ne pèle pas). Le bouleau pubescent (Betula pubescens), espèce sœur, a une écorce blanche similaire mais qui pèle moins nettement et reste plus terne.",
+      "category": "bark",
+      "traitFrequencyInSpecies": "always",
+      "traitRarityAmongTrees": "unique",
+      "seasonality": ["spring", "summer", "autumn", "winter"]
+    },
+    {
+      "id": "twig-warty-pendulous",
+      "question": "Les rameaux les plus fins, à l'extrémité des branches, sont-ils retombants et couverts de minuscules verrues rugueuses (petits grains résineux) quand on les fait rouler entre les doigts ?",
+      "sketch": "betula-pendula/twig-warty-pendulous.svg",
+      "sketchAlt": "Dessin d'une branche fine de bouleau retombant comme une mèche de cheveux. Un encart en gros plan montre la surface du rameau parsemée de minuscules verrues granuleuses, avec une main qui le fait rouler entre pouce et index. À côté, pour comparaison, un rameau de Betula pubescens lisse et couvert de fins poils, avec la mention 'pubescent : duveteux, pas verruqueux'.",
+      "feedbackYes": "Parfait — ces petites verrues résineuses sur les rameaux pendants sont la signature qui distingue Betula pendula (le 'verruqueux') de son cousin Betula pubescens (le pubescent, duveteux et sans verrues).",
+      "feedbackNo": "Si les rameaux sont au contraire couverts de fins poils doux (duveteux) ou s'ils ne pendent pas, il s'agit probablement du bouleau pubescent, qui pousse plutôt sur sols humides à tourbeux.",
+      "extendedHelp": "Le 'verruqueux' du nom français vient de ces minuscules glandes résineuses (1 mm) qui parsèment les jeunes rameaux et les rendent légèrement râpeux au toucher, comme couverts de grains de sable. C'est le critère clé pour séparer Betula pendula de Betula pubescens : ce dernier a des rameaux lisses mais finement pubescents (duveteux), sans verrues. Les rameaux de pendula sont aussi plus longs, plus fins, et retombent en cascade — d'où le nom latin 'pendula' et le surnom de 'bouleau pleureur'. Une vieille branche maîtresse peut porter des dizaines de rameaux pendant comme des fils.",
+      "category": "other",
+      "traitFrequencyInSpecies": "always",
+      "traitRarityAmongTrees": "unique",
+      "seasonality": ["spring", "summer", "autumn", "winter"]
+    },
+    {
+      "id": "leaf-triangular-double-toothed",
+      "question": "La feuille a-t-elle une forme nettement triangulaire ou en losange, avec une pointe effilée et un bord doublement denté (des grosses dents qui portent elles-mêmes de plus petites dents) ?",
+      "sketch": "betula-pendula/leaf-triangular-double-toothed.svg",
+      "sketchAlt": "Feuille de bouleau verruqueux vue de face : silhouette triangulaire (presque en losange), base droite ou en coin, pointe longue et effilée. Le bord présente des dents principales bien marquées qui portent elles-mêmes de petites dents secondaires. Un encart agrandit une portion de bord pour montrer la double denture. Une flèche désigne le pétiole long et fin.",
+      "feedbackYes": "Bien vu. Cette feuille triangulaire à pointe effilée et bord doublement denté est très caractéristique du bouleau verruqueux — combinée à un long pétiole, elle est presque diagnostique.",
+      "feedbackNo": "Une feuille ovale, ronde, lobée ou simplement dentée oriente vers une autre espèce. Le bouleau pubescent a, lui, une feuille plus ovale-arrondie à base arrondie, et une seule rangée de dents bien visibles.",
+      "extendedHelp": "La feuille de Betula pendula est petite (3-7 cm), de forme triangulaire ou en losange, avec une base souvent tronquée droite (comme coupée au couteau) et une pointe longuement effilée. Le bord porte deux niveaux de dents : de grandes dents pointues, chacune découpée à son tour en petites dents. Le pétiole (la tige de la feuille) est long et fin, ce qui fait trembler la feuille au moindre souffle de vent — un effet visuel partagé avec le peuplier tremble (mais celui-ci a une feuille ronde et un pétiole aplati en lame). Le bouleau pubescent a une feuille plus ovale, à base arrondie, et une denture simple ou à peine double.",
+      "category": "leaf-shape",
+      "traitFrequencyInSpecies": "always",
+      "traitRarityAmongTrees": "rare",
+      "seasonality": ["spring", "summer", "autumn"]
+    },
+    {
+      "id": "silhouette-light-airy",
+      "question": "La silhouette générale de l'arbre est-elle élancée, légère et transparente — comme si on voyait le ciel à travers le feuillage — avec des branches fines qui retombent en rideau ?",
+      "sketch": "betula-pendula/silhouette-light-airy.svg",
+      "sketchAlt": "Silhouette d'un bouleau adulte : tronc fin et droit, blanc, houppier ovale et léger laissant passer la lumière. Les branches fines retombent en cascade vers l'extérieur. À côté, pour comparaison, la silhouette d'un chêne avec un houppier dense et arrondi, et celle d'un peuplier tremble étroit et dressé.",
+      "feedbackYes": "Cette silhouette élancée et 'aérée', avec des branches fines qui pleurent, est très typique du bouleau verruqueux adulte. Dans un paysage, on le repère souvent à des centaines de mètres grâce à sa blancheur et sa légèreté.",
+      "feedbackNo": "Un houppier dense, compact, ou des branches dressées vers le haut orientent vers une autre espèce. Attention : un jeune bouleau ou un sujet en sous-bois peut avoir une silhouette moins reconnaissable — préférer alors les critères d'écorce et de feuille.",
+      "extendedHelp": "Le bouleau verruqueux a un port très reconnaissable : un tronc unique, fin et droit, et un houppier ovale ou triangulaire qui ne ferme jamais complètement la lumière. Les branches secondaires partent à l'horizontale puis retombent à leur extrémité, donnant cet effet de 'rideau' caractéristique. Le bouleau pubescent a un port plus dressé et trapu, sans rameaux pendants. Le peuplier tremble, qui partage aussi des feuilles tremblantes, a au contraire une silhouette étroite et fastigiée, et ne pleure pas. Sur les sols très pauvres ou en altitude, le bouleau peut être bien plus rabougri — ce trait est moins fiable dans ces conditions.",
+      "category": "silhouette",
+      "traitFrequencyInSpecies": "usually",
+      "traitRarityAmongTrees": "rare",
+      "seasonality": ["spring", "summer", "autumn", "winter"]
+    },
+    {
+      "id": "fruit-cylindrical-catkin",
+      "question": "À la fin de l'été ou en automne, l'arbre porte-t-il de petits chatons cylindriques pendants (3-4 cm) qui se désagrègent en libérant une fine pluie de minuscules graines ailées ?",
+      "sketch": "betula-pendula/fruit-cylindrical-catkin.svg",
+      "sketchAlt": "Schéma d'un rameau de bouleau en automne avec deux chatons femelles cylindriques pendants, brun clair, longs de 3-4 cm. Un chaton à droite est représenté en train de se désagréger, libérant une nuée de minuscules samares ailées en forme de papillon (deux ailes membraneuses entourant une graine centrale). Une flèche indique 'samare ailée < 3 mm'.",
+      "feedbackYes": "Excellent indice. Ces chatons cylindriques qui s'effritent en samares minuscules sont propres aux bouleaux et aux aulnes — combiné à l'écorce blanche, c'est sans ambiguïté un bouleau.",
+      "feedbackNo": "Si tu vois des glands, des faînes, des hélicoptères d'érable, ou des fruits bien plus gros, il ne s'agit pas d'un bouleau. À noter : l'aulne glutineux a aussi des fruits en chatons, mais ils sont petits, ronds et ligneux, comme de petits cônes durs.",
+      "extendedHelp": "Le bouleau porte deux types de chatons. Au printemps, de longs chatons mâles jaunâtres pendants (4-6 cm) libèrent leur pollen, puis tombent. Les chatons femelles, plus courts et dressés à la floraison, deviennent en été des chatons cylindriques pendants brun clair qui maturent à l'automne. Quand ils sont mûrs, ils se désagrègent sur l'arbre et au sol en milliers de petites samares à deux ailes membraneuses, dispersées par le vent — c'est ce qui permet au bouleau de coloniser si vite les terrains nus. À ne pas confondre avec les fruits ronds et durs de l'aulne, qui ressemblent à de petites pommes de pin.",
+      "category": "fruit",
+      "traitFrequencyInSpecies": "always",
+      "traitRarityAmongTrees": "rare",
+      "seasonality": ["summer", "autumn"]
+    }
+  ],
+  "extendedInfo": "Le bouleau verruqueux est l'archétype de l'arbre pionnier en Europe. Capable de germer sur les sols les plus ingrats — sables, gravats, terrains brûlés, friches industrielles, anciennes carrières — il est souvent l'un des premiers à recoloniser un milieu nu. Ses graines minuscules (moins d'un milligramme), produites par millions et dispersées par le vent sur plusieurs kilomètres, expliquent cette extraordinaire capacité de conquête. Mais cette stratégie a un revers : le bouleau pousse vite (plus d'un mètre par an dans sa jeunesse), vit peu (rarement plus de 100 ans) et finit par être supplanté par les essences forestières plus tolérantes à l'ombre — chênes, hêtres — qui s'installent à son couvert.\n\nLe bouleau a longtemps été un arbre utile. Son écorce, riche en bétuline (composé hydrofuge), permet d'allumer un feu même sous la pluie ; les peuples nordiques en faisaient des canoës, des paniers, des toitures. Sa sève, récoltée au printemps par incision, donne une boisson rafraîchissante encore consommée en Europe de l'Est. Le bois, blanc et tendre, sert au déroulage (contreplaqué), à la pâte à papier, à la marqueterie. Le 'goudron de bouleau', distillé de l'écorce, parfume le cuir russe et entrait autrefois dans des onguents médicinaux.\n\nDans la symbolique nordique et celtique, le bouleau est l'arbre du renouveau, de la jeunesse, du printemps — premier à se couvrir de feuilles tendres après l'hiver. Il ouvre l'alphabet des arbres dans les anciennes traditions runiques (Berkana) et celtiques (Beith).\n\nEn France, deux espèces de bouleau se partagent le territoire : Betula pendula (verruqueux), de loin le plus commun, sur sols frais à secs ; et Betula pubescens (pubescent), plus discret, qui occupe les sols humides à tourbeux et monte plus haut en altitude. Les deux peuvent s'hybrider, et on rencontre parfois des sujets intermédiaires que seuls la combinaison verrues/pubescence et la forme exacte des feuilles permet de trancher.",
+  "sources": [
+    "Flora Gallica — Tison J.-M. & de Foucault B. (dir.), 2014. Flora Gallica. Flore de France. Biotope Éditions, Mèze",
+    "Tela Botanica — eFlore BDTFX, fiche Betula pendula Roth (nn=9732)",
+    "INPN — Fiche Betula pendula Roth, 1788 (cd_nom 85903)",
+    "Rameau J.-C. et al. — Flore Forestière Française, tome 1 Plaines et collines. IFEF/IDF, 1989",
+    "Coste H. — Flore descriptive et illustrée de la France, vol. 3, 1901–1906, sous Betula verrucosa Ehrh.",
+    "Jonsell B. (ed.) — Flora Nordica, vol. 1, 2000, traitement du genre Betula"
+  ],
+  "validatedBy": null,
+  "validatedAt": null
+}

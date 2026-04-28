@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="title desc">
+  <title id="title">Rameaux fins et pendants couverts de verrues résineuses — Bouleau verruqueux (Betula pendula)</title>
+  <desc id="desc">Schéma d'un rameau de bouleau verruqueux retombant vers le bas. La surface du rameau est couverte de petites bosselures sombres et résineuses (verrucosités), mises en évidence dans un encadré agrandi. À droite, un rameau lisse pour comparaison (bouleau pubescent). Une flèche rouge désigne la zone verruqueuse.</desc>
+
+  <!-- branche principale (mère, horizontal) -->
+  <path d="M 20 80 L 200 80" stroke="#6b4420" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- rameau fin penduleux -->
+  <path d="M 120 80 C 115 110 105 150 95 200 C 88 235 82 260 78 280"
+        stroke="#6b4420" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- verrues sur le rameau (petits cercles sombres) -->
+  <g fill="#3a2010" stroke="none">
+    <circle cx="117" cy="92"  r="2"/>
+    <circle cx="113" cy="104" r="1.8"/>
+    <circle cx="109" cy="116" r="2.2"/>
+    <circle cx="105" cy="128" r="1.9"/>
+    <circle cx="101" cy="140" r="2"/>
+    <circle cx="97"  cy="153" r="1.8"/>
+    <circle cx="93"  cy="165" r="2.1"/>
+    <circle cx="89"  cy="177" r="1.9"/>
+    <circle cx="85"  cy="190" r="2"/>
+  </g>
+
+  <!-- encadré de zoom sur les verrues -->
+  <rect x="155" y="95" width="110" height="90" rx="4" fill="#faf6f0" stroke="#888" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <!-- représentation agrandie du tronçon de rameau -->
+  <path d="M 175 140 L 255 140" stroke="#6b4420" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <g fill="#3a2010" stroke="none">
+    <circle cx="185" cy="134" r="4"/>
+    <circle cx="198" cy="136" r="3.5"/>
+    <circle cx="211" cy="133" r="4.2"/>
+    <circle cx="224" cy="135" r="3.8"/>
+    <circle cx="237" cy="134" r="4"/>
+    <circle cx="248" cy="136" r="3.5"/>
+    <circle cx="185" cy="146" r="3.8"/>
+    <circle cx="198" cy="144" r="4"/>
+    <circle cx="212" cy="147" r="3.5"/>
+    <circle cx="225" cy="145" r="4.1"/>
+    <circle cx="238" cy="146" r="3.7"/>
+  </g>
+  <text x="210" y="198" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="11" fill="#888" font-style="italic">vue agrandie</text>
+
+  <!-- flèche vers zone verruqueuse du rameau -->
+  <g fill="#c1502e" stroke="#c1502e">
+    <line x1="152" y1="140" x2="112" y2="140" fill="none" stroke-width="1.4" stroke-linecap="round"/>
+    <polygon points="112,140 122,135 122,145"/>
+  </g>
+
+  <!-- flèche label verrues -->
+  <g fill="#c1502e" stroke="#c1502e">
+    <line x1="290" y1="140" x2="270" y2="140" fill="none" stroke-width="1.4" stroke-linecap="round"/>
+    <polygon points="270,140 280,135 280,145"/>
+  </g>
+  <text x="295" y="136" font-family="ui-serif, Georgia, serif" font-size="13" fill="#c1502e" font-style="italic">verrues</text>
+  <text x="295" y="152" font-family="ui-serif, Georgia, serif" font-size="13" fill="#c1502e" font-style="italic">résineuses</text>
+
+  <!-- comparaison : rameau lisse -->
+  <text x="300" y="210" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="11" fill="#555" font-style="italic">B. pubescens :</text>
+  <text x="300" y="224" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="11" fill="#555" font-style="italic">rameau lisse</text>
+  <path d="M 255 240 L 350 240" stroke="#6b4420" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- rameau penduleux : flèche de direction -->
+  <g fill="#c1502e" stroke="#c1502e">
+    <line x1="60" y1="200" x2="72" y2="220" fill="none" stroke-width="1.4" stroke-linecap="round"/>
+    <polygon points="72,220 63,213 76,211"/>
+  </g>
+  <text x="18" y="217" font-family="ui-serif, Georgia, serif" font-size="13" fill="#c1502e" font-style="italic">pendant</text>
+
+  <text x="200" y="290" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="11" fill="#888" font-style="italic">rameaux longs et retombants, même sur jeune arbre</text>
+</svg>

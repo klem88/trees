@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="title desc">
+  <title id="title">Bourgeons groupés en rosette à l'extrémité du rameau — Chêne pédonculé (Quercus robur)</title>
+  <desc id="desc">Extrémité d'un rameau de chêne en hiver : à la pointe, un groupe de 4 à 6 bourgeons ovales brun-roux serrés en rosette, mis en évidence par une zone colorée et une flèche. Deux ou trois bourgeons latéraux plus petits sont visibles le long du rameau. À droite, pour comparaison, un rameau à bourgeon terminal unique (frêne).</desc>
+
+  <!-- rameau principal -->
+  <path d="M 30 200 C 80 195 130 175 175 148" stroke="#6b4420" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- bourgeons latéraux sur le rameau -->
+  <g fill="#8a5228" stroke="#111" stroke-linejoin="round">
+    <ellipse cx="80" cy="193" rx="7" ry="4" transform="rotate(-15 80 193)"/>
+    <ellipse cx="125" cy="178" rx="7" ry="4" transform="rotate(-20 125 178)"/>
+  </g>
+
+  <!-- zone accent rosette terminale -->
+  <ellipse cx="195" cy="132" rx="38" ry="32" fill="#c1502e" fill-opacity="0.15" stroke="none"/>
+
+  <!-- groupe de bourgeons en rosette (terminal) -->
+  <!-- bourgeon central (le plus gros) -->
+  <ellipse cx="195" cy="120" rx="9" ry="14" fill="#8a5228" stroke="#111" stroke-width="1.3" stroke-linejoin="round"/>
+  <!-- écailles du bourgeon central -->
+  <g stroke="#5a3010" stroke-width="0.7" fill="none">
+    <path d="M 187 126 Q 195 122 203 126"/>
+    <path d="M 187 118 Q 195 114 203 118"/>
+    <path d="M 188 111 Q 195 108 202 111"/>
+  </g>
+
+  <!-- bourgeon gauche-haut -->
+  <ellipse cx="178" cy="118" rx="7" ry="11" fill="#8a5228" stroke="#111" stroke-width="1.2" transform="rotate(-18 178 118)"/>
+  <g stroke="#5a3010" stroke-width="0.6" fill="none">
+    <path d="M 172 122 Q 178 118 184 120" transform="rotate(-18 178 118)"/>
+    <path d="M 172 115 Q 178 112 184 113" transform="rotate(-18 178 118)"/>
+  </g>
+
+  <!-- bourgeon droite-haut -->
+  <ellipse cx="212" cy="118" rx="7" ry="11" fill="#8a5228" stroke="#111" stroke-width="1.2" transform="rotate(18 212 118)"/>
+  <g stroke="#5a3010" stroke-width="0.6" fill="none">
+    <path d="M 206 122 Q 212 118 218 120" transform="rotate(18 212 118)"/>
+  </g>
+
+  <!-- bourgeon gauche-bas -->
+  <ellipse cx="182" cy="138" rx="7" ry="10" fill="#8a5228" stroke="#111" stroke-width="1.2" transform="rotate(-30 182 138)"/>
+
+  <!-- bourgeon droite-bas -->
+  <ellipse cx="208" cy="138" rx="7" ry="10" fill="#8a5228" stroke="#111" stroke-width="1.2" transform="rotate(30 208 138)"/>
+
+  <!-- flèche rosette -->
+  <g fill="#c1502e" stroke="#c1502e">
+    <line x1="100" y1="80" x2="174" y2="115" fill="none" stroke-width="1.4" stroke-linecap="round"/>
+    <polygon points="174,115 165,112 170,122"/>
+  </g>
+  <text x="18" y="68" font-family="ui-serif, Georgia, serif" font-size="13" fill="#c1502e" font-style="italic">bourgeons</text>
+  <text x="18" y="84" font-family="ui-serif, Georgia, serif" font-size="13" fill="#c1502e" font-style="italic">groupés</text>
+  <text x="18" y="100" font-family="ui-serif, Georgia, serif" font-size="13" fill="#c1502e" font-style="italic">en rosette</text>
+
+  <!-- comparaison : frêne à bourgeon terminal unique noir -->
+  <g transform="translate(280 80)">
+    <rect x="-8" y="-8" width="110" height="140" rx="4" fill="#faf6f0" stroke="#888" stroke-width="0.9" stroke-dasharray="3 3"/>
+    <path d="M 10 120 C 30 115 55 100 70 80" stroke="#6b4420" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- bourgeon unique gros et noir -->
+    <ellipse cx="70" cy="72" rx="10" ry="16" fill="#1a1208" stroke="#111" stroke-width="1.3"/>
+    <!-- bourgeons latéraux opposés (caractère du frêne) -->
+    <ellipse cx="50" cy="107" rx="6" ry="9" fill="#1a1208" stroke="#111" stroke-width="1.1" transform="rotate(-20 50 107)"/>
+    <ellipse cx="62" cy="99" rx="6" ry="9" fill="#1a1208" stroke="#111" stroke-width="1.1" transform="rotate(-20 62 99)"/>
+    <text x="47" y="128" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="11" fill="#555" font-style="italic">frêne : bourgeon</text>
+    <text x="47" y="140" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="11" fill="#555" font-style="italic">unique, noir</text>
+  </g>
+
+  <text x="200" y="292" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="11" fill="#888" font-style="italic">unique chez le genre Quercus — clé d'identification hivernale</text>
+</svg>
