@@ -18,7 +18,9 @@
       "feedbackNo": "L'orme champêtre a presque toujours une base de feuille très asymétrique. Si ce n'est pas le cas ici, il s'agit probablement d'une autre espèce.",
       "extendedHelp": "Regarde l'endroit où la feuille rejoint sa petite tige (le pétiole). Sur la plupart des arbres, les deux côtés du bas de la feuille arrivent à la même hauteur. Sur l'orme, un côté descend plus bas que l'autre, donnant à la feuille un aspect 'de travers'.",
       "category": "leaf-base",
-      "discriminantPower": "signature"
+      "traitFrequencyInSpecies": "always",
+      "traitRarityAmongTrees": "unique",
+      "seasonality": ["spring", "summer", "autumn"]
     },
     {
       "id": "leaf-double-toothed-margin",
@@ -29,7 +31,9 @@
       "feedbackNo": "Les feuilles d'orme ont en général une marge doublement dentée bien visible. Une marge entière, simplement dentée ou lobée oriente vers une autre espèce.",
       "extendedHelp": "Imagine que chaque grosse dent du bord de la feuille porte elle-même de plus petites dents : c'est ça, une marge doublement dentée. C'est différent d'une marge simplement dentée comme un châtaignier, ou d'une marge lobée comme un chêne.",
       "category": "leaf-margin",
-      "discriminantPower": "strong"
+      "traitFrequencyInSpecies": "always",
+      "traitRarityAmongTrees": "rare",
+      "seasonality": ["spring", "summer", "autumn"]
     },
     {
       "id": "leaf-rough-upper-side",
@@ -40,7 +44,9 @@
       "feedbackNo": "L'orme champêtre a en général une face supérieure légèrement rugueuse. Une feuille parfaitement lisse oriente plutôt vers une autre espèce.",
       "extendedHelp": "Ce trait demande de toucher la feuille. Frotte délicatement le bout du doigt sur le dessus (face brillante) : tu dois sentir un très léger grain, pas du tout lisse comme du laurier ou du houx.",
       "category": "leaf-shape",
-      "discriminantPower": "moderate"
+      "traitFrequencyInSpecies": "usually",
+      "traitRarityAmongTrees": "rare",
+      "seasonality": ["spring", "summer", "autumn"]
     },
     {
       "id": "fruit-flat-winged-samara",
@@ -51,7 +57,22 @@
       "feedbackNo": "Les ormes produisent des samares très plates en forme de disque. Si tu vois des fruits différents (glands, hélicoptères, gousses, baies), il ne s'agit pas d'un orme.",
       "extendedHelp": "Les samares d'orme apparaissent au début du printemps, souvent avant les feuilles. Elles ressemblent à de petites pastilles vertes, plates, avec une graine visible au centre. C'est très différent des 'hélicoptères' des érables ou des graines ailées des frênes.",
       "category": "fruit",
-      "discriminantPower": "signature"
+      "traitFrequencyInSpecies": "always",
+      "traitRarityAmongTrees": "unique",
+      "seasonality": ["spring"]
+    },
+    {
+      "id": "bark-grey-fissured-plates",
+      "question": "Sur un arbre adulte, l'écorce du tronc est-elle gris-brun, finement fissurée verticalement en petites plaques rectangulaires, comme un pavage ?",
+      "sketch": "ulmus-minor/bark-grey-fissured-plates.svg",
+      "sketchAlt": "Détail de l'écorce d'un orme adulte : surface gris-brun parsemée de fissures verticales formant de petites plaques rectangulaires.",
+      "feedbackYes": "Bien observé. Cette écorce en petites plaques rectangulaires est typique de l'orme champêtre adulte. Elle se rapproche un peu de celle du chêne pubescent, mais avec des plaques plus fines et plus régulières.",
+      "feedbackNo": "Une écorce franchement lisse, qui pèle, ou très lourdement crevassée oriente vers une autre espèce. Attention : un jeune orme a une écorce lisse, ce trait ne fonctionne que sur les sujets adultes.",
+      "extendedHelp": "Regarde le tronc à hauteur d'œil. L'écorce de l'orme champêtre adulte se découpe en petits rectangles séparés par des fissures verticales fines. C'est différent du platane (qui pèle en plaques claires), du hêtre (lisse et grise), ou du robinier (très profondément crevassée et tordue).",
+      "category": "bark",
+      "traitFrequencyInSpecies": "usually",
+      "traitRarityAmongTrees": "rare",
+      "seasonality": ["spring", "summer", "autumn", "winter"]
     }
   ],
   "extendedInfo": "L'orme champêtre était l'un des arbres les plus emblématiques du bocage français, planté en alignement le long des routes. Depuis les années 1970, la graphiose, une maladie due à un champignon transporté par un coléoptère, a décimé les vieux sujets en France et en Europe. L'arbre survit aujourd'hui surtout sous forme de jeunes rejets dans les haies.",

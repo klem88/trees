@@ -61,7 +61,7 @@
       "minItems": 3,
       "maxItems": 5,
       "items": { "$ref": "#/$defs/Trait" },
-      "description": "Liste ordonnée des traits utilisés pour la validation. L'ordre traduit la priorité d'évidence."
+      "description": "Liste ordonnée des traits utilisés pour la validation. L'ordre par défaut traduit la priorité d'évidence ; à l'exécution, l'app peut réordonner selon la saison courante via le champ seasonality."
     },
     "extendedInfo": {
       "type": "string",
@@ -74,13 +74,13 @@
       "description": "Références bibliographiques utilisées pour la fiche."
     },
     "validatedBy": {
-      "type": "string",
-      "description": "Nom du botaniste ayant validé la fiche."
+      "type": ["string", "null"],
+      "description": "Nom du botaniste ayant validé la fiche. null tant que non validée."
     },
     "validatedAt": {
-      "type": "string",
+      "type": ["string", "null"],
       "format": "date",
-      "description": "Date de validation au format ISO (YYYY-MM-DD)."
+      "description": "Date de validation au format ISO (YYYY-MM-DD). null tant que non validée."
     }
   },
   "$defs": {
@@ -94,7 +94,9 @@
         "feedbackYes",
         "feedbackNo",
         "category",
-        "discriminantPower"
+        "traitFrequencyInSpecies",
+        "traitRarityAmongTrees",
+        "seasonality"
       ],
       "properties": {
         "id": {
@@ -140,10 +142,33 @@
             "other"
           ]
         },
-        "discriminantPower": {
+        "traitFrequencyInSpecies": {
           "type": "string",
-          "enum": ["signature", "strong", "moderate", "weak"]
+          "enum": ["always", "usually", "sometimes"],
+          "description": "Fréquence d'expression du trait chez l'espèce. always ≈ 0.95, usually ≈ 0.75, sometimes ≈ 0.50. Combiné à traitRarityAmongTrees pour calculer LR+ et LR− (cf. 09-methodology.md)."
+        },
+        "traitRarityAmongTrees": {
+          "type": "string",
+          "enum": ["unique", "rare", "common"],
+          "description": "Rareté du trait chez les autres arbres communs de France. unique ≈ 0.05 (signature genre/famille), rare ≈ 0.25, common ≈ 0.50."
+        },
+        "seasonality": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["spring", "summer", "autumn", "winter"]
+          },
+          "minItems": 1,
+          "uniqueItems": true,
+          "description": "Saisons pendant lesquelles le trait est observable. L'app utilise ce champ pour ordonner les questions selon la saison courante."
         }
+      },
+      "not": {
+        "description": "Combo interdite : un trait sometimes × common a un LR+ de 1 et un LR− de 1, donc n'apporte aucune information.",
+        "allOf": [
+          { "required": ["traitFrequencyInSpecies"], "properties": { "traitFrequencyInSpecies": { "const": "sometimes" } } },
+          { "required": ["traitRarityAmongTrees"], "properties": { "traitRarityAmongTrees": { "const": "common" } } }
+        ]
       }
     }
   }

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="title desc">
+  <title id="title">Marge doublement dentée — Orme champêtre (Ulmus minor)</title>
+  <desc id="desc">Gros plan sur le bord d'une feuille d'orme : la marge présente de grandes dents principales, chacune portant elle-même de plus petites dents. À droite, plus petite, une marge simplement dentée pour comparaison.</desc>
+
+  <path d="M 180 90 L 188 102 L 184 108 L 200 110 L 188 118 L 184 124 L 180 130 L 174 110 Z"
+        fill="#c1502e" fill-opacity="0.18" stroke="none"/>
+
+  <g fill="none" stroke="#111" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M 180 30
+             L 180 36 L 188 42 L 184 48 L 200 50 L 188 58 L 184 64 L 180 70
+             L 180 90 L 188 102 L 184 108 L 200 110 L 188 118 L 184 124 L 180 130
+             L 180 150 L 188 162 L 184 168 L 200 170 L 188 178 L 184 184 L 180 190
+             L 180 210 L 188 222 L 184 228 L 200 230 L 188 238 L 184 244 L 180 250
+             L 180 270" stroke-width="1.6"/>
+    <path d="M 30 32 Q 32 150 30 268" stroke-width="1.0"/>
+    <path d="M 32 50 Q 110 48 200 50" stroke-width="0.85"/>
+    <path d="M 32 110 Q 110 108 200 110" stroke-width="0.85"/>
+    <path d="M 32 170 Q 110 168 200 170" stroke-width="0.85"/>
+    <path d="M 32 230 Q 110 228 200 230" stroke-width="0.85"/>
+  </g>
+
+  <g fill="#c1502e" stroke="#c1502e">
+    <line x1="240" y1="110" x2="205" y2="110" fill="none" stroke-width="1.4" stroke-linecap="round"/>
+    <polygon points="205,110 215,105 215,115"/>
+  </g>
+  <text x="245" y="100" font-family="ui-serif, Georgia, serif" font-size="13" fill="#c1502e" font-style="italic">deux niveaux</text>
+  <text x="245" y="116" font-family="ui-serif, Georgia, serif" font-size="13" fill="#c1502e" font-style="italic">de dents</text>
+  <text x="245" y="138" font-family="ui-serif, Georgia, serif" font-size="11" fill="#555" font-style="italic">grosse dent portant</text>
+  <text x="245" y="151" font-family="ui-serif, Georgia, serif" font-size="11" fill="#555" font-style="italic">de plus petites</text>
+
+  <g transform="translate(360 110)" fill="none" stroke="#111" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M 0 0
+             L 0 12 L 12 22 L 0 32
+             L 0 44 L 12 54 L 0 64
+             L 0 76 L 12 86 L 0 96" stroke-width="1.4"/>
+    <path d="M 0 -5 L 0 100" stroke-width="0.7" opacity="0.5"/>
+  </g>
+  <text x="362" y="232" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="11" fill="#555" font-style="italic">ailleurs :</text>
+  <text x="362" y="246" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="11" fill="#555" font-style="italic">marge simple</text>
+</svg>
