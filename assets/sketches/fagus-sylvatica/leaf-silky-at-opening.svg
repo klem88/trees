@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="title desc">
+  <title id="title">Poils soyeux au débourrement — Hêtre commun (Fagus sylvatica)</title>
+  <desc id="desc">Gros plan sur le bord d'une jeune feuille de hêtre en avril : de longs poils soyeux argentés garnissent tout le pourtour. À droite, la même marge lisse en été pour comparaison.</desc>
+
+  <!-- ══ Gros plan : marge de la jeune feuille avec poils ══ -->
+  <!-- Nervures intérieures (gauche) -->
+  <g fill="none" stroke="#111" stroke-linecap="round" opacity="0.5">
+    <path d="M 30 52 Q 32 150 30 248" stroke-width="0.9"/>
+    <path d="M 30  80 Q 100  78 168  80" stroke-width="0.75"/>
+    <path d="M 30 130 Q 100 128 168 130" stroke-width="0.75"/>
+    <path d="M 30 180 Q 100 178 168 180" stroke-width="0.75"/>
+    <path d="M 30 230 Q 100 228 168 230" stroke-width="0.75"/>
+  </g>
+
+  <!-- Ligne de marge (le bord de la feuille) -->
+  <path d="M 168 30 Q 172 150 168 270" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- Zone accent (côté extérieur, là où sont les poils) -->
+  <path d="M 168 80 Q 172 150 168 220 L 195 220 Q 199 150 195 80 Z"
+        fill="#c1502e" fill-opacity="0.18" stroke="none"/>
+
+  <!-- Poils soyeux (côté extérieur de la marge) -->
+  <g stroke="#aaa" stroke-width="1.2" stroke-linecap="round">
+    <line x1="169" y1=" 45" x2="186" y2=" 42"/>
+    <line x1="170" y1=" 63" x2="188" y2=" 59"/>
+    <line x1="170" y1=" 81" x2="189" y2=" 77"/>
+    <line x1="170" y1=" 99" x2="189" y2=" 95"/>
+    <line x1="170" y1="117" x2="189" y2="113"/>
+    <line x1="170" y1="135" x2="189" y2="131"/>
+    <line x1="170" y1="153" x2="189" y2="149"/>
+    <line x1="170" y1="171" x2="189" y2="167"/>
+    <line x1="170" y1="189" x2="189" y2="185"/>
+    <line x1="170" y1="207" x2="189" y2="203"/>
+    <line x1="170" y1="225" x2="189" y2="221"/>
+    <line x1="169" y1="243" x2="187" y2="240"/>
+    <line x1="169" y1="261" x2="186" y2="258"/>
+  </g>
+
+  <!-- ══ Flèche + label ══ -->
+  <g fill="#c1502e" stroke="#c1502e">
+    <line x1="370" y1="148" x2="192" y2="148" fill="none" stroke-width="1.4" stroke-linecap="round"/>
+    <polygon points="192,148 202,143 202,153"/>
+  </g>
+  <text x="373" y="137" font-family="ui-serif, Georgia, serif" font-size="13" fill="#c1502e" font-style="italic">poils soyeux</text>
+  <text x="373" y="153" font-family="ui-serif, Georgia, serif" font-size="13" fill="#c1502e" font-style="italic">argentés</text>
+  <text x="373" y="172" font-family="ui-serif, Georgia, serif" font-size="11" fill="#555" font-style="italic">longs cils brillants</text>
+  <text x="373" y="188" font-family="ui-serif, Georgia, serif" font-size="11" fill="#555" font-style="italic">sur tout le pourtour</text>
+
+  <!-- ══ Comparaison : même marge lisse en été ══ -->
+  <line x1="248" y1="220" x2="388" y2="220" stroke="#888" stroke-width="0.7" stroke-dasharray="3 3"/>
+  <path d="M 318 230 Q 322 252 318 274" fill="none" stroke="#111" stroke-width="1.4" stroke-linecap="round"/>
+  <g fill="none" stroke="#111" stroke-linecap="round" opacity="0.4">
+    <path d="M 258 230 Q 260 252 258 274" stroke-width="0.8"/>
+    <path d="M 258 242 Q 288 241 318 242" stroke-width="0.65"/>
+    <path d="M 258 262 Q 288 261 318 262" stroke-width="0.65"/>
+  </g>
+  <text x="318" y="228" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="10" fill="#888" font-style="italic">en été : lisse</text>
+
+  <text x="84" y="288" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="11" fill="#888" font-style="italic">avril – mai seulement</text>
+</svg>

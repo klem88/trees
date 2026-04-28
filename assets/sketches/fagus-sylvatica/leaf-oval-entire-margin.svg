@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="title desc">
+  <title id="title">Bord de feuille entier — Hêtre commun (Fagus sylvatica)</title>
+  <desc id="desc">La feuille du hêtre a un bord entier ou très légèrement ondulé, sans dents. À droite, la marge doublement dentée du charme pour comparaison.</desc>
+
+  <!-- ══ Feuille hêtre ══ -->
+  <g fill="none" stroke="#111" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M 112 258
+             C  74 252  50 214  50 168
+             C  50 122  74  82 112  70
+             C 150  82 174 122 174 168
+             C 174 214 150 252 112 258 Z"
+          stroke-width="1.6"/>
+    <line x1="112" y1="258" x2="112" y2="274" stroke-width="1.4"/>
+    <path d="M 112 258 Q 110 164 112  70" stroke-width="1.1"/>
+    <!-- 6 paires de nervures -->
+    <path d="M 112 238 Q  82 224  58 214" stroke-width="0.85"/>
+    <path d="M 112 238 Q 142 224 166 214" stroke-width="0.85"/>
+    <path d="M 112 210 Q  78 195  54 184" stroke-width="0.85"/>
+    <path d="M 112 210 Q 146 195 170 184" stroke-width="0.85"/>
+    <path d="M 112 180 Q  74 165  52 154" stroke-width="0.85"/>
+    <path d="M 112 180 Q 150 165 172 154" stroke-width="0.85"/>
+    <path d="M 112 150 Q  74 136  54 125" stroke-width="0.85"/>
+    <path d="M 112 150 Q 150 136 170 125" stroke-width="0.85"/>
+    <path d="M 112 120 Q  78 108  62  98" stroke-width="0.85"/>
+    <path d="M 112 120 Q 146 108 162  98" stroke-width="0.85"/>
+    <path d="M 112  92 Q  84  82  74  76" stroke-width="0.85"/>
+    <path d="M 112  92 Q 140  82 150  76" stroke-width="0.85"/>
+  </g>
+
+  <!-- Zone accent sur la marge droite -->
+  <path d="M 174 148 C 178 162 178 174 174 188 L 164 185 C 168 172 168 162 164 151 Z"
+        fill="#c1502e" fill-opacity="0.18" stroke="none"/>
+
+  <!-- ══ Flèche + label ══ -->
+  <g fill="#c1502e" stroke="#c1502e">
+    <line x1="368" y1="168" x2="176" y2="168" fill="none" stroke-width="1.4" stroke-linecap="round"/>
+    <polygon points="176,168 186,163 186,173"/>
+  </g>
+  <text x="371" y="157" font-family="ui-serif, Georgia, serif" font-size="13" fill="#c1502e" font-style="italic">bord entier</text>
+  <text x="371" y="174" font-family="ui-serif, Georgia, serif" font-size="13" fill="#c1502e" font-style="italic">ou ondulé</text>
+  <text x="371" y="194" font-family="ui-serif, Georgia, serif" font-size="11" fill="#555" font-style="italic">sans dents</text>
+
+  <!-- ══ Comparaison : marge dentée du charme ══ -->
+  <line x1="248" y1="48" x2="248" y2="258" stroke="#888" stroke-width="0.7" stroke-dasharray="3 3"/>
+  <g fill="none" stroke="#111" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M 310 58
+             L 310 72 L 322 80 L 316 88 L 328 92 L 316 100 L 322 108
+             L 310 116 L 322 124 L 316 132 L 328 136 L 316 144 L 322 152
+             L 310 160 L 322 168 L 316 176 L 328 180 L 316 188 L 322 196
+             L 310 204 L 310 218"
+          stroke-width="1.4"/>
+    <path d="M 280 58 Q 282 138 280 218" stroke-width="0.8" opacity="0.4"/>
+    <path d="M 280  80 Q 296  80 310  80" stroke-width="0.6"/>
+    <path d="M 280 116 Q 296 116 310 116" stroke-width="0.6"/>
+    <path d="M 280 160 Q 296 160 310 160" stroke-width="0.6"/>
+    <path d="M 280 204 Q 296 204 310 204" stroke-width="0.6"/>
+  </g>
+  <text x="295" y="244" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="11" fill="#555" font-style="italic">charme : bord denté</text>
+</svg>

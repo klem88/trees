@@ -22,5 +22,6 @@ ajv validate -s ../schemas/species.schema.json -d "*.json"
 | Espèce | Statut | Validé par botaniste | Date |
 |---|---|---|---|
 | Ulmus minor (orme champêtre) | Brouillon (template) | Non | — |
+| Fagus sylvatica (hêtre commun) | Brouillon | Non | — |
 
 > Mettre à jour ce tableau à chaque fiche ajoutée.

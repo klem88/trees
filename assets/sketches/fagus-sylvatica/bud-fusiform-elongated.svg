@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="title desc">
+  <title id="title">Bourgeon fusiforme allongé — Hêtre commun (Fagus sylvatica)</title>
+  <desc id="desc">Le bourgeon du hêtre en hiver est très allongé en forme de fuseau, brun-roux brillant, et pointe en biais à 45° du rameau. En bas, le bourgeon court du charme pour comparaison.</desc>
+
+  <!-- ══ Rameau ══ -->
+  <line x1="28" y1="188" x2="248" y2="182" stroke="#6b4420" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Zone accent sur le bourgeon -->
+  <ellipse cx="148" cy="118" rx="12" ry="38" fill="#c1502e" fill-opacity="0.18" stroke="none"
+           transform="rotate(-46 148 118)"/>
+
+  <!-- ══ Bourgeon hêtre (grand, fusiforme, brun-roux) ══ -->
+  <g transform="rotate(-46 148 118)">
+    <ellipse cx="148" cy="118" rx="8" ry="34" fill="#8a5228" stroke="#111" stroke-width="1.6"/>
+    <!-- Écailles imbriquées -->
+    <line x1="141" y1="101" x2="155" y2="101" stroke="#5a3010" stroke-width="0.9"/>
+    <line x1="140" y1="110" x2="156" y2="110" stroke="#5a3010" stroke-width="0.9"/>
+    <line x1="140" y1="119" x2="156" y2="119" stroke="#5a3010" stroke-width="0.9"/>
+    <line x1="140" y1="128" x2="156" y2="128" stroke="#5a3010" stroke-width="0.9"/>
+    <line x1="141" y1="137" x2="155" y2="137" stroke="#5a3010" stroke-width="0.9"/>
+  </g>
+
+  <!-- Cote de longueur -->
+  <g stroke="#888" stroke-width="0.9" fill="none" stroke-linecap="round">
+    <line x1="208" y1="84"  x2="216" y2="84"/>
+    <line x1="212" y1="84"  x2="212" y2="154"/>
+    <line x1="208" y1="154" x2="216" y2="154"/>
+  </g>
+  <text x="220" y="124" font-family="ui-serif, Georgia, serif" font-size="11" fill="#888" font-style="italic">≈ 20 mm</text>
+
+  <!-- ══ Flèche + label ══ -->
+  <g fill="#c1502e" stroke="#c1502e">
+    <line x1="370" y1="118" x2="184" y2="118" fill="none" stroke-width="1.4" stroke-linecap="round"/>
+    <polygon points="184,118 194,113 194,123"/>
+  </g>
+  <text x="373" y="108" font-family="ui-serif, Georgia, serif" font-size="13" fill="#c1502e" font-style="italic">allongé, effilé</text>
+  <text x="373" y="124" font-family="ui-serif, Georgia, serif" font-size="13" fill="#c1502e" font-style="italic">divergent</text>
+  <text x="373" y="143" font-family="ui-serif, Georgia, serif" font-size="11" fill="#555" font-style="italic">brun-roux brillant</text>
+
+  <!-- ══ Comparaison : bourgeon charme ══ -->
+  <line x1="28" y1="220" x2="240" y2="220" stroke="#888" stroke-width="0.7" stroke-dasharray="3 3"/>
+  <line x1="28" y1="240" x2="200" y2="238" stroke="#6b4420" stroke-width="3.5" stroke-linecap="round"/>
+  <g transform="rotate(-28 90 230)">
+    <ellipse cx="90" cy="230" rx="4" ry="11" fill="#7a7a2a" stroke="#111" stroke-width="1.3"/>
+  </g>
+  <g transform="rotate(25 148 247)">
+    <ellipse cx="148" cy="247" rx="4" ry="11" fill="#7a7a2a" stroke="#111" stroke-width="1.3"/>
+  </g>
+  <text x="114" y="275" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="11" fill="#555" font-style="italic">charme : court, olive-brun</text>
+</svg>

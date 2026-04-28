@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="title desc">
+  <title id="title">Écorce lisse et grise — Hêtre commun (Fagus sylvatica)</title>
+  <desc id="desc">Comparaison de deux écorces : à gauche, la surface lisse et gris clair du hêtre. À droite, une écorce profondément fissurée pour contraste.</desc>
+
+  <!-- ══ Panneau gauche : écorce lisse du hêtre ══ -->
+  <rect x="30" y="38" width="195" height="224" rx="4" fill="#c8c8c8" stroke="#111" stroke-width="1.6"/>
+  <rect x="72" y="95" width="88" height="110" rx="2" fill="#c1502e" fill-opacity="0.18" stroke="none"/>
+  <!-- Quelques lenticelles horizontales très discrètes -->
+  <g stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round" opacity="0.7">
+    <line x1="38"  y1="72"  x2="62"  y2="72"/>
+    <line x1="82"  y1="80"  x2="114" y2="80"/>
+    <line x1="148" y1="68"  x2="174" y2="68"/>
+    <line x1="44"  y1="178" x2="80"  y2="178"/>
+    <line x1="118" y1="186" x2="160" y2="186"/>
+    <line x1="170" y1="174" x2="196" y2="174"/>
+    <line x1="52"  y1="232" x2="88"  y2="232"/>
+    <line x1="138" y1="240" x2="196" y2="240"/>
+  </g>
+
+  <!-- ══ Panneau droit : écorce fissurée (comparaison) ══ -->
+  <rect x="258" y="58" width="112" height="155" rx="4" fill="#c4a878" stroke="#111" stroke-width="1.4"/>
+  <g fill="none" stroke="#6b4420" stroke-width="1.5" stroke-linecap="round">
+    <path d="M 274 60 Q 271 82 274 106 Q 272 132 275 165 Q 272 188 274 211"/>
+    <path d="M 293 60 Q 296 84 292 108 Q 295 136 292 168 Q 295 190 292 211"/>
+    <path d="M 313 60 Q 310 82 313 107 Q 311 134 314 167 Q 311 190 313 211"/>
+    <path d="M 333 60 Q 336 83 332 108 Q 335 135 332 167 Q 335 191 332 211"/>
+    <path d="M 353 60 Q 350 83 353 108 Q 351 134 354 167 Q 351 190 354 211"/>
+    <line x1="259" y1="100" x2="369" y2="104" stroke-width="0.8" opacity="0.5"/>
+    <line x1="259" y1="145" x2="369" y2="141" stroke-width="0.8" opacity="0.5"/>
+    <line x1="259" y1="188" x2="369" y2="192" stroke-width="0.8" opacity="0.5"/>
+  </g>
+
+  <!-- ══ Flèche + label ══ -->
+  <g fill="#c1502e" stroke="#c1502e">
+    <line x1="370" y1="148" x2="227" y2="148" fill="none" stroke-width="1.4" stroke-linecap="round"/>
+    <polygon points="227,148 237,143 237,153"/>
+  </g>
+  <text x="258" y="240" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="11" fill="#555" font-style="italic">ailleurs : fissurée</text>
+
+  <text x="127" y="286" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="12" fill="#c1502e" font-style="italic">lisse et gris clair — même sur vieux arbre</text>
+</svg>
