@@ -245,7 +245,7 @@ Après retour, le contributeur :
 3. ☐ Lister tous les traits saillants, scorer en (frequency, rarity, seasonality).
 4. ☐ Sélectionner 3 à 5 traits, ordonner par LR+ décroissant.
 5. ☐ Vérifier la diversité des catégories et la couverture saisonnière.
-6. ☐ Rédiger le JSON (id, nom, summary, habitat, taille, traits, sources).
+6. ☐ Rédiger le JSON (id, nom, summary, habitat, taille, traits, sources). Sur chaque trait, renseigner `sources` (au moins une valeur de l'enum).
 7. ☐ Valider le JSON contre `species.schema.json`.
 8. ☐ Pour chaque trait : sourcer 2-3 photos/planches → écrire le brief → générer le SVG en V3 → vérifier le rendu (zéro chevauchement).
 9. ☐ Soumettre la fiche complète au botaniste avec une liste de questions ouvertes.

@@ -104,7 +104,7 @@ Suggestion de 50 arbres communs en France métropolitaine (à valider avec le bo
 - Saule marsault (*Salix caprea*)
 
 ### Conifères très communs
-- Pin sylvestre (*Pinus sylvestris*)
+- **Pin sylvestre** (*Pinus sylvestris*) — pilote (premier conifère ; force l'introduction de la catégorie `needle`)
 - Pin maritime (*Pinus pinaster*)
 - Pin parasol (*Pinus pinea*)
 - Pin laricio / Pin noir (*Pinus nigra*)

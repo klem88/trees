@@ -64,6 +64,29 @@
 **Raison** : les outils actuels d'image générative produisent des inexactitudes anatomiques inacceptables pour un usage pédagogique.
 **Conséquences** : charge iconographique réelle à anticiper (~120 à 150 croquis pour la v1).
 
+### D-011 — Langue : français pour le contenu, anglais pour les identifiants techniques
+**Date** : 2026-04-28
+**Décision** : tout le contenu destiné à l'utilisateur est rédigé en français (questions de validation, feedback, légendes des croquis, prose des fiches espèces, descriptions des SVG, documentation du projet). L'anglais est réservé aux clés et identifiants techniques (`leaf-asymmetric-base`, `traitFrequencyInSpecies`, noms de fichiers, slugs JSON, commentaires de code).
+**Raison** : cohérent avec le public cible (naturalistes francophones), avec l'existant du projet (fiches, questions, roadmap déjà en français), et avec les conventions habituelles des projets web où les clés sont en anglais pour la portabilité et la lisibilité technique.
+**Conséquences** : toute nouvelle clé ou identifiant technique doit être en anglais, en `camelCase` ou `kebab-case`. Tout nouveau texte visible ou documentaire doit être en français. Pas de mélange dans un même champ (la valeur est en français, la clé est en anglais).
+
+### D-012 — Champ `sources` par trait + catégorie `needle` + pin sylvestre comme pilote conifère
+**Date** : 2026-04-28
+**Décision** : trois ajouts au modèle de données et à la liste pilote.
+
+1. **`sources` sur chaque `Trait`** (champ requis, enum) : liste des sources documentaires ayant servi à établir ce trait spécifiquement. Valeurs autorisées : `tela-botanica`, `flora-gallica`, `inpn`, `florealpes`, `coste`, `bonnier`, `delachaux-arbres`, `kohler-plates`, `thome-plates`, `wikimedia-commons`, `wikipedia`, `other`. Distinct du champ `sources` de l'espèce (texte libre, niveau fiche entière).
+
+2. **Catégorie `needle`** ajoutée à l'enum `category` : couvre les aiguilles et feuilles aciculaires des conifères, non couvertes par les catégories foliaires existantes (`leaf-shape`, `leaf-margin`, etc.).
+
+3. **Pin sylvestre (*Pinus sylvestris*)** ajouté comme 6e espèce pilote en phase 1.
+
+**Raisons** :
+- La traçabilité par trait (et non seulement par fiche) facilite la revue botaniste (on sait d'où vient chaque scoring) et permet de détecter les traits reposant sur une source unique.
+- Sans `needle`, tous les traits des conifères tomberaient dans `other`, rendant l'analyse de couverture par catégorie peu fiable.
+- Introduire un conifère dès la phase pilote valide que le schéma et la méthode fonctionnent au-delà des feuillus, avant de passer à l'échelle.
+
+**Conséquences** : `sources` est requis dans le schéma JSON sur chaque trait (erreur de validation si absent). Toutes les fiches existantes et futures doivent le renseigner. La checklist de production (`09-methodology.md §8`) doit être mise à jour pour inclure la vérification du champ `sources` sur chaque trait.
+
 ## Décisions à prendre
 
 ### Q-001 — Choix du framework frontend
