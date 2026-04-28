@@ -33,7 +33,8 @@ arbres-id/
 │   ├── 05-content-guide.md    Guide de constitution du contenu botanique
 │   ├── 06-sketches-guide.md   Guide de production des croquis
 │   ├── 07-roadmap.md          Feuille de route et jalons
-│   └── 08-decisions-log.md    Journal des décisions (ADR allégé)
+│   ├── 08-decisions-log.md    Journal des décisions (ADR allégé)
+│   └── 09-methodology.md      Méthodologie de constitution du dataset
 ├── data/
 │   ├── schemas/
 │   │   └── species.schema.json    Schéma JSON validateur d'une espèce
