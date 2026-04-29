@@ -27,6 +27,19 @@ Quand le trait est subtil :
 - Annotation textuelle minimale ("base asymétrique")
 - Comparaison côte à côte si pertinent (oui / non — montre une feuille symétrique à côté d'une asymétrique)
 
+#### Convention flèches comparatives (fixée avril 2026, après proto)
+
+Quand le croquis met en regard l'espèce et un comparatif :
+- **La flèche rouge pointe toujours sur le détail diagnostique de l'espèce cible**, pas sur le comparatif.
+- Le comparatif est étiqueté en gris et en italique (`charme : bord denté`, `ailleurs : symétrique`), sans flèche.
+- Position habituelle : espèce à gauche, comparatif à droite.
+
+#### Texte intégré au SVG vs externe
+
+- Les **labels courts** désignant la zone observée (ex : "base asymétrique", "long pédoncule 3-7 cm") restent **dans le SVG** : ils sont positionnés relativement aux éléments graphiques.
+- Les **légendes générales** ("le pédoncule donne son nom à l'espèce", "lisse même sur vieux arbre") doivent être **externalisées** dans le champ `sketchCaption` du JSON. Bénéfices : taille de texte cohérente avec l'app, traduction possible, sélection/recherche, accessibilité.
+- En cas de doute : si le texte décrit la scène entière → externe (`sketchCaption`). S'il étiquette un détail précis → interne (SVG).
+
 ### 4. Cohérence visuelle
 
 Sur l'ensemble de l'app, les croquis doivent partager :

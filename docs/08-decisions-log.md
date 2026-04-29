@@ -87,6 +87,48 @@
 
 **Conséquences** : `sources` est requis dans le schéma JSON sur chaque trait (erreur de validation si absent). Toutes les fiches existantes et futures doivent le renseigner. La checklist de production (`09-methodology.md §8`) doit être mise à jour pour inclure la vérification du champ `sources` sur chaque trait.
 
+## Décisions prises pendant le proto (avril 2026)
+
+### D-013 — `label`, `discriminantPower`, `sketchCaption` ajoutés au schéma de trait
+**Date** : 2026-04-28
+**Décision** : ajouter trois champs au `Trait` du schéma JSON :
+- `label` (requis, ≤ 60 char) : étiquette courte affirmative pour récap, carnet, listes.
+- `discriminantPower` (déjà au schéma, désormais effectivement renseigné) : `signature | strong | moderate | weak`. L'app affiche un badge "Trait signature" mais **ne raccourcit pas le parcours** — toutes les questions sont posées même quand un trait signature est validé, par choix pédagogique.
+- `sketchCaption` (optionnel) : légende externalisée du SVG, pour traduction et accessibilité.
+
+**Raison** : observations issues du proto réel (cf. session test 2026-04-28). La `question` complète est trop longue pour servir de checklist en récap. Sans hiérarchie de pouvoir discriminant, impossible de signaler à l'utilisateur quels traits sont décisifs. Texte intégré au SVG = barrière à la traduction et à la sélection.
+**Conséquences** : 20 traits existants enrichis manuellement. Les 2 fiches restantes (érable, pin) doivent porter ces champs dès la rédaction.
+
+### D-014 — `sources` rendu temporairement non-obligatoire
+**Date** : 2026-04-28
+**Décision** : retirer `sources` de la liste `required` du schéma de trait, le temps de rétro-documenter.
+**Raison** : les 4 fiches pilotes ont été produites sans tracer les sources au fil de la recherche — manquement méthodologique reconnu lors de la session test du 28 avril 2026. La règle "journal de sources par trait pendant la recherche" est désormais inscrite en Étape 1 du `05-content-guide.md` pour les fiches futures. Champ redeviendra `required` avant publication v1 publique.
+**Conséquences** : audit en cours. État après vérification croisée Tela Botanica eFlore (description) + Wikipedia FR :
+- **Fagus sylvatica** : 5/5 traits sourcés `["tela-botanica", "wikipedia"]`.
+- **Betula pendula** : 5/5 traits sourcés `["tela-botanica", "wikipedia"]`.
+- **Ulmus minor** : 2/5 traits sourcés (`leaf-asymmetric-base`, `fruit-flat-winged-samara`). 3 traits restants non confirmés par 2 sources : `leaf-double-toothed-margin` (non décrit explicitement dans les sources consultées), `leaf-rough-upper-side` (uniquement Wikipedia), `bark-grey-fissured-plates` (uniquement Tela). À reprendre avec Flora Gallica ou Coste papier.
+- **Quercus robur** : 0/5 traits sourcés. La fiche Tela Botanica description est vide (template à renseigner par contributeurs Tela). Wikipedia confirme 4 traits sur 5, mais sans 2e source indépendante. **À traiter en priorité avec le botaniste référent.**
+
+### D-015 — Trait `quercus-robur/leaf-rounded-lobes-no-points` à revoir
+**Date** : 2026-04-28
+**Statut** : flag botanique
+**Constat** : la formulation "lobes arrondis sans pointes" est botaniquement contestable. Wikipedia FR mentionne explicitement que les lobes ont un "sommet aigu, arrondi ou rétus" — donc parfois aigu chez Q. robur. Le contraste réel avec Q. petraea est plus subtil que "arrondi vs pointu".
+**À faire** : reformuler la question avec le botaniste — peut-être centrer sur la combinaison "lobes peu profonds, arrondis dans l'ensemble + pétiole très court + base à oreillettes" qui est plus discriminante que "sans pointes".
+
+### D-016 — Navigation Retour : stack d'historique + "Changer ma réponse"
+**Date** : 2026-04-29
+**Décision** : deux mécanismes de retour en arrière distincts dans la PWA.
+
+1. **"← Retour"** (bouton permanent en haut de ValidationEngine et sur l'écran Transition) : dépile un snapshot du stack d'historique stocké dans `App.svelte`. Chaque snapshot est poussé au début de `next()` — avant que la réponse ne soit appliquée — et capture `stage`, `candidates`, `current`, `eliminated`, `traitIndex`, `validated`. Ramène à la question précédente (ou à l'espèce précédente depuis l'écran Transition), sans réponse pré-cochée.
+
+2. **"← Changer ma réponse"** (bouton dans le panneau de feedback, à côté de "Trait suivant" / "Espèce suivante") : remet simplement `answer = null` localement dans ValidationEngine, sans toucher l'historique. Permet de reconsidérer sa réponse avant de confirmer.
+
+**Architecture** : `traitIndex`, `validated` et `answer` sont des props `$bindable` dans ValidationEngine, ce qui permet à App.svelte de les lire (pour le snapshot) et de les écraser (pour la restauration) sans remonter manuellement chaque changement.
+
+**Raison** : l'utilisateur en forêt peut se tromper ou hésiter. Un parcours sans retour crée une frustration et pousse à des abandons. Les deux niveaux couvrent les deux cas : changer d'avis avant de valider (Changer ma réponse) et revenir sur une validation déjà confirmée (Retour).
+
+**Conséquences** : le stack n'est pas persisté (rechargement = perte). Acceptable en v1. Pas de retour depuis l'écran Récap (fin de parcours assumée).
+
 ## Décisions à prendre
 
 ### Q-001 — Choix du framework frontend

@@ -3,7 +3,10 @@
   "scientificName": "Fagus sylvatica",
   "scientificNameAliases": [],
   "commonNameFr": "Hêtre commun",
-  "commonNameAliasesFr": ["Hêtre sylvestre", "Fayard"],
+  "commonNameAliasesFr": [
+    "Hêtre sylvestre",
+    "Fayard"
+  ],
   "family": "Fagaceae",
   "summary": "Grand arbre des forêts de plaine et de montagne, reconnaissable entre tous à son écorce grise et parfaitement lisse. L'une des essences forestières les plus répandues et les plus imposantes de France.",
   "habitat": "Forêts de plaine à montagne (jusqu'à 1 700 m), sur sols frais, profonds et bien drainés, légèrement acides à neutres. Forme des hêtraies pures ou des hêtraies-sapinières en altitude. Absent des zones méditerranéennes et des plaines très sèches.",
@@ -11,6 +14,7 @@
   "traits": [
     {
       "id": "bark-smooth-grey",
+      "label": "Écorce lisse et gris clair",
       "question": "En touchant le tronc ou en regardant l'écorce de près, est-elle parfaitement lisse et de couleur gris clair — sans fissures ni plaques — même sur un vieux et grand arbre ?",
       "sketch": "fagus-sylvatica/bark-smooth-grey.svg",
       "sketchAlt": "Schéma d'un tronc vu de côté, avec une main qui effleure l'écorce. La surface est lisse et d'un gris uniforme, sans fissures. Une flèche indique 'lisse même sur vieux arbre'. À droite, pour comparaison, un fragment d'écorce fissurée avec la mention 'autres arbres : fissurée'.",
@@ -18,12 +22,23 @@
       "feedbackNo": "Une écorce fissurée, côtelée ou qui pèle oriente clairement vers une autre espèce. Le hêtre est l'un des très rares grands arbres dont l'écorce reste lisse de la naissance jusqu'à la vieillesse.",
       "extendedHelp": "Regarde ou touche le tronc à hauteur d'œil. Sur un chêne adulte, l'écorce est profondément crevassée ; sur un platane, elle pèle en grandes plaques claires ; sur un frêne, elle se fissure tôt. Le charme a aussi une écorce grise, mais avec des côtes musclées bien marquées, comme des muscles sous la peau. Le hêtre, lui, reste d'une douceur presque étrange sur de vieux sujets forestiers de 30 à 40 m.",
       "category": "bark",
+      "discriminantPower": "signature",
       "traitFrequencyInSpecies": "always",
       "traitRarityAmongTrees": "rare",
-      "seasonality": ["spring", "summer", "autumn", "winter"]
+      "seasonality": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "sources": [
+        "tela-botanica",
+        "wikipedia"
+      ]
     },
     {
       "id": "leaf-oval-entire-margin",
+      "label": "Bord de feuille lisse ou ondulé",
       "question": "En regardant le bord de la feuille, est-il lisse ou très légèrement ondulé en vagues — sans vraies dents ni lobes découpés ?",
       "sketch": "fagus-sylvatica/leaf-oval-entire-margin.svg",
       "sketchAlt": "Gros plan sur le bord d'une feuille de hêtre : bord entier et très légèrement ondulé, avec des nervures parallèles bien visibles. À droite, pour comparaison, le bord doublement denté d'une feuille de charme avec la mention 'charme : denté'.",
@@ -31,12 +46,22 @@
       "feedbackNo": "Un bord franchement denté ou lobé oriente vers une autre espèce : châtaignier (très longues dents mucronées), charme (doublement denté, nervures très nombreuses), chêne (lobes arrondis caractéristiques). Le hêtre a un bord presque lisse.",
       "extendedHelp": "Ce trait fonctionne bien en tandem avec la nervation : la feuille de hêtre a 5 à 9 paires de nervures secondaires bien marquées et parallèles, qui se terminent au bord sans former de dents réelles. Le charme, qui ressemble le plus au hêtre à première vue, a lui un bord nettement doublement denté et des nervures encore plus nombreuses (10 à 15 paires). Regarder le bord de la feuille contre le ciel est souvent la façon la plus simple de trancher.",
       "category": "leaf-margin",
+      "discriminantPower": "strong",
       "traitFrequencyInSpecies": "always",
       "traitRarityAmongTrees": "rare",
-      "seasonality": ["spring", "summer", "autumn"]
+      "seasonality": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "sources": [
+        "tela-botanica",
+        "wikipedia"
+      ]
     },
     {
       "id": "leaf-silky-at-opening",
+      "label": "Jeunes feuilles soyeuses (avril)",
       "question": "Au tout début du printemps (avril), les jeunes feuilles qui sortent du bourgeon sont-elles couvertes de longs poils soyeux argentés, brillant à la lumière comme de la soie ?",
       "sketch": "fagus-sylvatica/leaf-silky-at-opening.svg",
       "sketchAlt": "Schéma d'un rameau de hêtre en avril avec de jeunes feuilles encore plissées sortant d'un bourgeon allongé. Les feuilles sont couvertes de poils fins représentés comme des traits soyeux argentés. Une flèche indique 'poils soyeux argentés'. En médaillon, une feuille entièrement développée lisse pour montrer la transition.",
@@ -44,12 +69,20 @@
       "feedbackNo": "Ce caractère n'est visible que quelques semaines en avril-mai au moment précis du débourrement. Si les feuilles sont déjà complètement développées et vertes, ce critère n'est plus utilisable — regarder l'écorce ou le bord des feuilles à la place.",
       "extendedHelp": "Au débourrement, chaque feuille sort repliée sur elle-même comme un livre (vernation condupliquée) et recouverte de longs cils soyeux qui brillent au soleil — un effet 'argent' très frappant. En plein été, une fois les feuilles adultes, ce caractère disparaît complètement. Si tu observes l'arbre hors d'avril-mai, ce trait ne s'applique pas : note simplement 'je ne sais pas'.",
       "category": "leaf-shape",
+      "discriminantPower": "signature",
       "traitFrequencyInSpecies": "always",
       "traitRarityAmongTrees": "rare",
-      "seasonality": ["spring"]
+      "seasonality": [
+        "spring"
+      ],
+      "sources": [
+        "tela-botanica",
+        "wikipedia"
+      ]
     },
     {
       "id": "bud-fusiform-elongated",
+      "label": "Bourgeons en cigare allongés",
       "question": "En hiver (hors feuillage), les bourgeons sur les rameaux sont-ils très allongés et effilés — comme de petits cigares pointus brun-roux — et penchent-ils en biais par rapport au rameau ?",
       "sketch": "fagus-sylvatica/bud-fusiform-elongated.svg",
       "sketchAlt": "Dessin d'un rameau de hêtre en hiver avec plusieurs bourgeons alternes. Chaque bourgeon est représenté comme un long fuseau effilé, brun, penché à environ 45° par rapport au rameau. Une flèche double indique la longueur (15-25 mm). En dessous, pour comparaison, un bourgeon de charme court et ovale avec la mention 'charme : court'.",
@@ -57,12 +90,20 @@
       "feedbackNo": "Des bourgeons courts, ronds ou collés au rameau orientent vers une autre espèce. Le bourgeon du hêtre est remarquable par sa longueur et sa forme effilée, visibles même de loin sur les rameaux en hiver.",
       "extendedHelp": "Compare avec quelques espèces : le charme a des bourgeons courts (5-8 mm), légèrement poilus et verdâtres ; le chêne a des bourgeons ovales groupés en rosette au bout des rameaux ; le frêne a de gros bourgeons noirs et trapus très reconnaissables. Le hêtre se distingue immédiatement par ses bourgeons en 'aiguille', très longs (15-25 mm), brun luisant avec de nombreuses écailles imbriquées, qui pointent en biais comme de petites fusées. C'est l'un des critères d'identification hivernale les plus fiables de nos forêts.",
       "category": "bud",
+      "discriminantPower": "signature",
       "traitFrequencyInSpecies": "always",
       "traitRarityAmongTrees": "unique",
-      "seasonality": ["winter"]
+      "seasonality": [
+        "winter"
+      ],
+      "sources": [
+        "tela-botanica",
+        "wikipedia"
+      ]
     },
     {
       "id": "fruit-trigone-beechnut",
+      "label": "Faînes à 3 faces dans cupule hérissée",
       "question": "À l'automne, l'arbre porte-t-il de petits fruits à trois faces (comme une pyramide), brun brillant, contenus par deux dans une enveloppe hérissée de petites soies molles et souples ?",
       "sketch": "fagus-sylvatica/fruit-trigone-beechnut.svg",
       "sketchAlt": "Schéma d'une cupule de hêtre ouverte en quatre valves, montrant deux faînes trigones brun brillant à l'intérieur. Les soies molles de la cupule sont représentées comme de fines protubérances flexibles. Une flèche 'faîne' pointe vers un akène isolé pour montrer sa forme triangulaire en coupe.",
@@ -70,9 +111,16 @@
       "feedbackNo": "Des glands, des samares ailées, des baies ou des bogues très piquantes orientent vers une autre espèce. La faîne du hêtre est lisse, trigone, et son enveloppe à soies souples (non piquantes) est unique.",
       "extendedHelp": "La faîne est le fruit du hêtre. Contrairement au châtaignier (boguette très piquante avec de vraies épines acérées) ou au chêne (gland ovale dans une cupule en écailles), la faîne est un petit akène à trois angles (section triangulaire), lisse et brun brillant. L'enveloppe (cupule) est couverte de lanières molles qui ne piquent pas. Les faînes tombent en automne, parfois en très grande quantité lors des 'années à faînes' qui reviennent tous les 5 à 8 ans environ.",
       "category": "fruit",
+      "discriminantPower": "signature",
       "traitFrequencyInSpecies": "always",
       "traitRarityAmongTrees": "unique",
-      "seasonality": ["autumn"]
+      "seasonality": [
+        "autumn"
+      ],
+      "sources": [
+        "tela-botanica",
+        "wikipedia"
+      ]
     }
   ],
   "extendedInfo": "Le hêtre est l'arbre dominant de la hêtraie, formation forestière naturelle de la majeure partie de la France tempérée et montagneuse. Capable de vivre 300 à 500 ans, il peut dépasser 40 m de hauteur et crée une ombre si dense que le sous-bois des vieilles hêtraies est presque vide de végétation — on parle de forêt 'cathédrale'.\n\nEn France, le hêtre est présent des falaises normandes jusqu'aux Pyrénées et aux Alpes, mais absent du domaine méditerranéen. Il est particulièrement vulnérable aux sécheresses estivales prolongées et aux épisodes de canicule répétés : depuis les années 2000, des dépérissements sont observés dans plusieurs massifs français, ce qui en fait un indicateur sensible du changement climatique.\n\nContrairement à l'orme décimé par la graphiose, le hêtre reste encore très commun, mais son avenir à long terme dans certaines régions de plaine est incertain.",

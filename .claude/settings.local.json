@@ -4,7 +4,16 @@
       "Bash(node -e ' *)",
       "Bash(node -e \"require\\('http'\\)\")",
       "mcp__Claude_Preview__preview_start",
-      "mcp__Claude_in_Chrome__tabs_context_mcp"
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(npm -v)",
+      "Bash(npm install *)",
+      "Bash(node scripts/add-labels.mjs)",
+      "Bash(node scripts/add-power.mjs)",
+      "WebSearch",
+      "WebFetch(domain:www.tela-botanica.org)",
+      "WebFetch(domain:inpn.mnhn.fr)",
+      "WebFetch(domain:fr.wikipedia.org)",
+      "Bash(node scripts/add-sources.mjs)"
     ]
   }
 }

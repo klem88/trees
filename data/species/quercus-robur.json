@@ -1,9 +1,14 @@
 {
   "id": "quercus-robur",
   "scientificName": "Quercus robur",
-  "scientificNameAliases": ["Quercus pedunculata"],
+  "scientificNameAliases": [
+    "Quercus pedunculata"
+  ],
   "commonNameFr": "Chêne pédonculé",
-  "commonNameAliasesFr": ["Chêne commun", "Gravelin"],
+  "commonNameAliasesFr": [
+    "Chêne commun",
+    "Gravelin"
+  ],
   "family": "Fagaceae",
   "summary": "Grand arbre majestueux des plaines françaises, emblème des forêts de feuillus, reconnaissable à ses glands portés sur de longs pédoncules et à sa feuille à lobes arrondis presque sans pétiole.",
   "habitat": "Forêts de plaine et collines (jusqu'à environ 1 300 m), sur sols profonds, frais et riches, neutres à légèrement acides. Tolère bien l'humidité temporaire, contrairement au chêne sessile. Présent dans toute la France hors étage méditerranéen sec et hautes montagnes ; souvent dominant dans les chênaies de plaine et les chênaies-charmaies.",
@@ -11,6 +16,7 @@
   "traits": [
     {
       "id": "fruit-acorn-long-peduncle",
+      "label": "Glands sur long pédoncule",
       "question": "À l'automne, les glands de l'arbre sont-ils portés au bout d'une longue tige fine de 3 à 7 cm — comme accrochés à un long fil — souvent par 2 ou 3 ?",
       "sketch": "quercus-robur/fruit-acorn-long-peduncle.svg",
       "sketchAlt": "Schéma d'un rameau de chêne pédonculé en automne. Une longue tige fine (pédoncule) de 3 à 7 cm part du rameau et porte deux glands ovales dans leurs cupules en écailles. Une flèche double indique la longueur du pédoncule. À droite, pour comparaison, un gland de chêne sessile collé directement au rameau, sans tige, avec la mention 'chêne sessile : gland sans tige'.",
@@ -18,12 +24,17 @@
       "feedbackNo": "Si les glands sont collés directement au rameau, sans tige visible, il s'agit très probablement d'un chêne sessile (Quercus petraea). D'autres fruits (faînes triangulaires, châtaignes piquantes, samares ailées) orientent vers d'autres espèces.",
       "extendedHelp": "Le pédoncule est la petite tige qui relie le fruit au rameau. Chez le chêne pédonculé, il est exceptionnellement long (3 à 7 cm) et porte généralement 2 à 4 glands en grappe lâche. Chez le chêne sessile, au contraire, les glands sont 'sessiles' c'est-à-dire posés directement sur le rameau, sans aucune tige apparente. C'est le critère le plus fiable pour distinguer les deux espèces — bien plus sûr que la forme des feuilles, qui se ressemblent. Attention : ce trait n'est observable qu'en fin d'été et en automne (août à octobre), quand les glands sont formés.",
       "category": "fruit",
+      "discriminantPower": "signature",
       "traitFrequencyInSpecies": "always",
       "traitRarityAmongTrees": "unique",
-      "seasonality": ["summer", "autumn"]
+      "seasonality": [
+        "summer",
+        "autumn"
+      ]
     },
     {
       "id": "leaf-rounded-lobes-no-points",
+      "label": "Lobes arrondis sans pointes",
       "question": "La feuille a-t-elle un contour découpé en grosses ondulations arrondies (lobes), toutes douces et sans aucune pointe piquante au bout ?",
       "sketch": "quercus-robur/leaf-rounded-lobes-no-points.svg",
       "sketchAlt": "Feuille de chêne pédonculé vue de face : silhouette ovale allongée découpée en 4 à 6 paires de lobes arrondis, sans aucune pointe. À droite, pour comparaison, une feuille de chêne rouge d'Amérique avec ses lobes terminés par de petites pointes acérées, accompagnée de la mention 'chêne rouge : pointes piquantes'.",
@@ -31,12 +42,18 @@
       "feedbackNo": "Si les lobes se terminent par de petites pointes piquantes, il s'agit probablement d'un chêne rouge d'Amérique (Quercus rubra). Une feuille à dents, à bord lisse ou à folioles multiples oriente vers une autre famille (châtaignier, hêtre, frêne...).",
       "extendedHelp": "Regarde la silhouette générale de la feuille. Elle dessine 4 à 6 paires de lobes arrondis, séparés par des échancrures profondes mais à fond arrondi. Aucun lobe ne se termine par une pointe ou une épine. C'est ce qui distingue les chênes européens (pédonculé, sessile, pubescent) du chêne rouge d'Amérique, fréquent dans les parcs et plantations forestières, dont chaque lobe pointe vers l'avant comme une petite flèche. La feuille du chêne vert, méditerranéen, est entièrement différente : petite, dure, coriace, avec parfois des dents piquantes.",
       "category": "leaf-shape",
+      "discriminantPower": "strong",
       "traitFrequencyInSpecies": "always",
       "traitRarityAmongTrees": "rare",
-      "seasonality": ["spring", "summer", "autumn"]
+      "seasonality": [
+        "spring",
+        "summer",
+        "autumn"
+      ]
     },
     {
       "id": "leaf-base-auricles-short-petiole",
+      "label": "Base à oreillettes, pétiole court",
       "question": "La base de la feuille (où elle rejoint sa tige) forme-t-elle deux petites oreillettes arrondies qui dépassent en arrière, et la tige de la feuille est-elle très courte voire presque invisible ?",
       "sketch": "quercus-robur/leaf-base-auricles-short-petiole.svg",
       "sketchAlt": "Détail de la base d'une feuille de chêne pédonculé : deux petits lobes arrondis (oreillettes ou auricules) reviennent en arrière de part et d'autre de l'attache, et le pétiole est très court (2 à 7 mm). Une flèche pointe les oreillettes avec la légende 'oreillettes en cœur'. À droite, pour comparaison, une base de feuille de chêne sessile sans oreillettes mais avec un pétiole long de 1 à 2 cm, accompagnée de la mention 'chêne sessile : pétiole long, pas d'oreillettes'.",
@@ -44,12 +61,18 @@
       "feedbackNo": "Si la base est nette (sans oreillettes) et la tige de la feuille bien visible (1 à 2 cm), il s'agit plus probablement d'un chêne sessile. Si la feuille est duveteuse en dessous avec un long pétiole, regarder du côté du chêne pubescent.",
       "extendedHelp": "Retourne une feuille à plat et regarde son point d'attache. Chez le chêne pédonculé, la base du limbe forme deux petits lobes arrondis qui débordent en arrière, comme deux petites oreilles ; et la tige de la feuille (le pétiole) est si courte qu'on la remarque à peine — souvent 2 à 7 mm. Chez le chêne sessile, c'est l'inverse : pas d'oreillettes à la base, et un pétiole bien visible de 1 à 2 cm. Cette inversion (gland sans pédoncule mais feuille à long pétiole chez le sessile, gland à long pédoncule mais feuille à pétiole court chez le pédonculé) est un grand classique trompeur de la botanique française : retiens-la, elle te servira longtemps.",
       "category": "leaf-base",
+      "discriminantPower": "signature",
       "traitFrequencyInSpecies": "usually",
       "traitRarityAmongTrees": "rare",
-      "seasonality": ["spring", "summer", "autumn"]
+      "seasonality": [
+        "spring",
+        "summer",
+        "autumn"
+      ]
     },
     {
       "id": "bark-deeply-fissured",
+      "label": "Écorce profondément crevassée",
       "question": "Sur un arbre adulte, l'écorce du tronc est-elle gris-brun foncé et profondément creusée de longues fissures verticales, formant un réseau de crêtes très marquées ?",
       "sketch": "quercus-robur/bark-deeply-fissured.svg",
       "sketchAlt": "Détail de l'écorce d'un vieux chêne pédonculé : surface gris-brun parcourue de profondes fissures verticales et de petites fissures horizontales secondaires, formant un réseau de crêtes massives. À droite, pour comparaison, l'écorce parfaitement lisse et gris clair d'un hêtre, avec la mention 'hêtre : lisse'.",
@@ -57,12 +80,19 @@
       "feedbackNo": "Une écorce lisse oriente vers le hêtre ou un jeune sujet ; une écorce qui pèle en plaques claires vers le platane ; une écorce en petites plaques rectangulaires régulières vers l'orme. Sur un jeune chêne (moins de 30-40 ans), l'écorce est encore peu fissurée — ce trait ne fonctionne bien que sur les arbres adultes.",
       "extendedHelp": "Regarde le tronc à hauteur d'œil sur un arbre déjà imposant. L'écorce d'un vieux chêne pédonculé est l'une des plus expressives de nos forêts : épaisse, gris-brun, parcourue de longues fissures verticales profondes et de fissures horizontales secondaires qui découpent des plaques massives et irrégulières. Le chêne sessile a une écorce assez similaire, peut-être un peu moins profondément crevassée. Le chêne pubescent, lui, a souvent une écorce plus finement et plus régulièrement quadrillée, en petits pavés. Ne pas confondre avec le robinier faux-acacia, qui a une écorce aussi très crevassée mais tordue en spirale.",
       "category": "bark",
+      "discriminantPower": "moderate",
       "traitFrequencyInSpecies": "usually",
       "traitRarityAmongTrees": "common",
-      "seasonality": ["spring", "summer", "autumn", "winter"]
+      "seasonality": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ]
     },
     {
       "id": "bud-cluster-rosette",
+      "label": "Bourgeons groupés en rosette",
       "question": "En hiver (sans feuilles), au tout bout des rameaux, vois-tu plusieurs bourgeons ovales groupés ensemble en bouquet — comme une petite rosette de 3 à 5 bourgeons serrés ?",
       "sketch": "quercus-robur/bud-cluster-rosette.svg",
       "sketchAlt": "Extrémité d'un rameau de chêne en hiver : à la pointe, un groupe de 4 ou 5 bourgeons ovales brun clair serrés en rosette. Le long du rameau, des bourgeons isolés plus petits, alternes. Une flèche pointe la rosette terminale avec la légende 'bourgeons en bouquet'. En dessous, pour comparaison, un bourgeon de hêtre long, fin et effilé en cigare avec la mention 'hêtre : cigare allongé'.",
@@ -70,9 +100,12 @@
       "feedbackNo": "Des bourgeons isolés, alternes le long du rameau, ou des bourgeons longs en cigare orientent vers d'autres espèces (hêtre, charme, frêne). La rosette terminale est très caractéristique des chênes.",
       "extendedHelp": "Au bout de chaque rameau de chêne, le bourgeon principal (terminal) est entouré de plusieurs bourgeons latéraux serrés contre lui, formant un petit bouquet ou rosette de 3 à 5 unités. Chaque bourgeon est ovale, court (3 à 6 mm), brun clair à brun-roux, couvert d'écailles imbriquées en quinconce. C'est un trait distinctif du genre Quercus en hiver — le hêtre a au contraire un seul long bourgeon effilé, le charme un bourgeon court et plaqué, le frêne un gros bourgeon noir bien isolé. Pour distinguer le chêne pédonculé du sessile sur le seul bourgeon, c'est très difficile : il faut attendre la fructification ou les feuilles.",
       "category": "bud",
+      "discriminantPower": "strong",
       "traitFrequencyInSpecies": "always",
       "traitRarityAmongTrees": "rare",
-      "seasonality": ["winter"]
+      "seasonality": [
+        "winter"
+      ]
     }
   ],
   "extendedInfo": "Le chêne pédonculé est l'un des arbres les plus emblématiques du paysage français. Capable de vivre 500 à 1 000 ans, parfois davantage (les chênes de Tronçais, d'Allouville-Bellefosse ou de Guillotin en témoignent), il atteint à maturité un port massif et étalé qui en fait un repère dans les paysages de bocage et de forêt. Son bois, dense et durable, est l'un des plus utilisés de la sylviculture française : charpente, menuiserie, tonnellerie (les célèbres fûts de chêne pour le vin et le cognac viennent largement de ses futaies, notamment celles du Limousin et de l'Allier).\n\nÉcologiquement, le chêne pédonculé est une espèce-clé : un seul vieux chêne peut héberger plusieurs centaines d'espèces d'insectes, lichens, champignons et oiseaux. Ses glands nourrissent sangliers, écureuils, geais et de nombreux rongeurs, qui contribuent en retour à la dispersion de ses graines. La chênaie pédonculée à charme est l'un des grands types de forêts naturelles de la moitié nord de la France.\n\nCulturellement, le chêne occupe une place de premier plan : arbre des druides gaulois, symbole de force et de longévité, choisi par Saint Louis pour rendre la justice à Vincennes, présent sur les pièces et les armoiries. Il reste l'arbre que beaucoup de Français visualisent quand on dit simplement 'un arbre'.\n\nStatut de conservation : espèce non menacée, classée 'Préoccupation mineure' (LC) sur la Liste rouge UICN. Toutefois, comme de nombreuses espèces forestières, il est de plus en plus affecté par les sécheresses estivales, l'oïdium et certains insectes ravageurs (processionnaire du chêne en expansion). Sa résilience naturelle reste élevée mais son avenir dépendra de la dynamique climatique des prochaines décennies.",

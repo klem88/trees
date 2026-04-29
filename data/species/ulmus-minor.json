@@ -1,9 +1,15 @@
 {
   "id": "ulmus-minor",
   "scientificName": "Ulmus minor",
-  "scientificNameAliases": ["Ulmus campestris", "Ulmus carpinifolia"],
+  "scientificNameAliases": [
+    "Ulmus campestris",
+    "Ulmus carpinifolia"
+  ],
   "commonNameFr": "Orme champêtre",
-  "commonNameAliasesFr": ["Petit orme", "Orme rouge"],
+  "commonNameAliasesFr": [
+    "Petit orme",
+    "Orme rouge"
+  ],
   "family": "Ulmaceae",
   "summary": "Arbre commun des bocages et lisières de plaine, autrefois très répandu dans le paysage rural français avant la maladie de l'orme.",
   "habitat": "Bocages, haies, lisières forestières, bords de cours d'eau, jusqu'à environ 1000 m d'altitude.",
@@ -11,6 +17,7 @@
   "traits": [
     {
       "id": "leaf-asymmetric-base",
+      "label": "Base de feuille asymétrique",
       "question": "Est-ce que la base de la feuille est nettement asymétrique, comme si elle était posée de travers sur sa tige ?",
       "sketch": "ulmus-minor/leaf-asymmetric-base.svg",
       "sketchAlt": "Feuille d'orme vue de face, le bas de la feuille (où elle rejoint la tige) est nettement décalé d'un côté par rapport à l'autre. Une flèche pointe cette zone asymétrique.",
@@ -18,12 +25,22 @@
       "feedbackNo": "L'orme champêtre a presque toujours une base de feuille très asymétrique. Si ce n'est pas le cas ici, il s'agit probablement d'une autre espèce.",
       "extendedHelp": "Regarde l'endroit où la feuille rejoint sa petite tige (le pétiole). Sur la plupart des arbres, les deux côtés du bas de la feuille arrivent à la même hauteur. Sur l'orme, un côté descend plus bas que l'autre, donnant à la feuille un aspect 'de travers'.",
       "category": "leaf-base",
+      "discriminantPower": "signature",
       "traitFrequencyInSpecies": "always",
       "traitRarityAmongTrees": "unique",
-      "seasonality": ["spring", "summer", "autumn"]
+      "seasonality": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "sources": [
+        "tela-botanica",
+        "wikipedia"
+      ]
     },
     {
       "id": "leaf-double-toothed-margin",
+      "label": "Bord de feuille doublement denté",
       "question": "Le bord de la feuille présente-t-il des dents irrégulières, certaines grosses portant elles-mêmes de plus petites dents ?",
       "sketch": "ulmus-minor/leaf-double-toothed-margin.svg",
       "sketchAlt": "Gros plan sur le bord d'une feuille d'orme, montrant des dents principales qui portent à leur tour de petites dents secondaires.",
@@ -31,12 +48,18 @@
       "feedbackNo": "Les feuilles d'orme ont en général une marge doublement dentée bien visible. Une marge entière, simplement dentée ou lobée oriente vers une autre espèce.",
       "extendedHelp": "Imagine que chaque grosse dent du bord de la feuille porte elle-même de plus petites dents : c'est ça, une marge doublement dentée. C'est différent d'une marge simplement dentée comme un châtaignier, ou d'une marge lobée comme un chêne.",
       "category": "leaf-margin",
+      "discriminantPower": "strong",
       "traitFrequencyInSpecies": "always",
       "traitRarityAmongTrees": "rare",
-      "seasonality": ["spring", "summer", "autumn"]
+      "seasonality": [
+        "spring",
+        "summer",
+        "autumn"
+      ]
     },
     {
       "id": "leaf-rough-upper-side",
+      "label": "Feuille rugueuse au toucher",
       "question": "Quand tu passes le doigt sur le dessus de la feuille, est-ce que ça gratte un peu, comme du papier de verre très fin ?",
       "sketch": "ulmus-minor/leaf-rough-upper-side.svg",
       "sketchAlt": "Schéma d'un doigt passant sur la surface d'une feuille, avec une zone légèrement texturée sur le dessus.",
@@ -44,12 +67,18 @@
       "feedbackNo": "L'orme champêtre a en général une face supérieure légèrement rugueuse. Une feuille parfaitement lisse oriente plutôt vers une autre espèce.",
       "extendedHelp": "Ce trait demande de toucher la feuille. Frotte délicatement le bout du doigt sur le dessus (face brillante) : tu dois sentir un très léger grain, pas du tout lisse comme du laurier ou du houx.",
       "category": "leaf-shape",
+      "discriminantPower": "moderate",
       "traitFrequencyInSpecies": "usually",
       "traitRarityAmongTrees": "rare",
-      "seasonality": ["spring", "summer", "autumn"]
+      "seasonality": [
+        "spring",
+        "summer",
+        "autumn"
+      ]
     },
     {
       "id": "fruit-flat-winged-samara",
+      "label": "Samares plates ailées",
       "question": "Si l'arbre porte des fruits (au printemps surtout), s'agit-il de petits disques plats verdâtres ressemblant à de minces pièces de monnaie ailées ?",
       "sketch": "ulmus-minor/fruit-flat-winged-samara.svg",
       "sketchAlt": "Schéma d'une samare d'orme : un disque plat avec une graine au centre, ressemblant à une fine pastille.",
@@ -57,12 +86,20 @@
       "feedbackNo": "Les ormes produisent des samares très plates en forme de disque. Si tu vois des fruits différents (glands, hélicoptères, gousses, baies), il ne s'agit pas d'un orme.",
       "extendedHelp": "Les samares d'orme apparaissent au début du printemps, souvent avant les feuilles. Elles ressemblent à de petites pastilles vertes, plates, avec une graine visible au centre. C'est très différent des 'hélicoptères' des érables ou des graines ailées des frênes.",
       "category": "fruit",
+      "discriminantPower": "signature",
       "traitFrequencyInSpecies": "always",
       "traitRarityAmongTrees": "unique",
-      "seasonality": ["spring"]
+      "seasonality": [
+        "spring"
+      ],
+      "sources": [
+        "tela-botanica",
+        "wikipedia"
+      ]
     },
     {
       "id": "bark-grey-fissured-plates",
+      "label": "Écorce grise à plaques fissurées",
       "question": "Sur un arbre adulte, l'écorce du tronc est-elle gris-brun, finement fissurée verticalement en petites plaques rectangulaires, comme un pavage ?",
       "sketch": "ulmus-minor/bark-grey-fissured-plates.svg",
       "sketchAlt": "Détail de l'écorce d'un orme adulte : surface gris-brun parsemée de fissures verticales formant de petites plaques rectangulaires.",
@@ -70,9 +107,15 @@
       "feedbackNo": "Une écorce franchement lisse, qui pèle, ou très lourdement crevassée oriente vers une autre espèce. Attention : un jeune orme a une écorce lisse, ce trait ne fonctionne que sur les sujets adultes.",
       "extendedHelp": "Regarde le tronc à hauteur d'œil. L'écorce de l'orme champêtre adulte se découpe en petits rectangles séparés par des fissures verticales fines. C'est différent du platane (qui pèle en plaques claires), du hêtre (lisse et grise), ou du robinier (très profondément crevassée et tordue).",
       "category": "bark",
+      "discriminantPower": "moderate",
       "traitFrequencyInSpecies": "usually",
       "traitRarityAmongTrees": "rare",
-      "seasonality": ["spring", "summer", "autumn", "winter"]
+      "seasonality": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ]
     }
   ],
   "extendedInfo": "L'orme champêtre était l'un des arbres les plus emblématiques du bocage français, planté en alignement le long des routes. Depuis les années 1970, la graphiose, une maladie due à un champignon transporté par un coléoptère, a décimé les vieux sujets en France et en Europe. L'arbre survit aujourd'hui surtout sous forme de jeunes rejets dans les haies.",

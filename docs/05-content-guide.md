@@ -45,6 +45,8 @@ Réunir 2 à 3 sources botaniques fiables sur l'espèce :
 - Une flore papier de référence (Coste, Bonnier, Flora Gallica)
 - Ressources pédagogiques grand public (livres "reconnaître les arbres")
 
+**🚨 Règle absolue (issue du retour proto avril 2026)** : tenir un **journal de sources par trait** au fil de la recherche. Pour chaque trait identifié, noter immédiatement les 2 sources concordantes qui le mentionnent (ex : *"écorce lisse même sur vieux sujet : Flora Gallica p.142 + Tela Botanica eFlore Fagus sylvatica §morphologie"*). Le champ `sources` du JSON se remplit **au fil de la rédaction**, pas après coup — sinon il finit oublié, comme ce fut le cas sur les 4 fiches pilotes. Sans cette traçabilité, l'app perd sa crédibilité botanique : un trait sans source vérifiable est un trait inventé.
+
 ### Étape 2 — Lister tous les traits saillants
 Sans filtrer, lister tout ce qui est caractéristique de l'espèce. Par catégorie (feuille, écorce, fruit, port).
 
@@ -54,8 +56,12 @@ Sans filtrer, lister tout ce qui est caractéristique de l'espèce. Par catégor
 - Trier par pouvoir discriminant + facilité d'observation.
 - Sélectionner **3 à 5 traits**, en commençant par le plus signature.
 
-### Étape 4 — Rédiger la question
-- En français courant
+### Étape 4 — Rédiger la question et le label
+
+**`label`** (ajouté lors du proto avril 2026) : étiquette courte, ≤ 60 caractères, qui résume le trait. Sert dans la fiche récap, le carnet, le mode exploration. Doit être **affirmatif et descriptif**, pas interrogatif. Ex : *"Base de feuille asymétrique"*, *"Écorce lisse et gris clair"*.
+
+**`question`** :
+- En français courant, ≤ 140 caractères idéalement (testé en mobile : au-delà, ça déborde sur 4 lignes)
 - Affirmation simple à laquelle on peut répondre oui ou non
 - Pas de jargon non expliqué
 - Si un terme botanique est inévitable, le lever par le croquis et l'explication étendue

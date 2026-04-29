@@ -89,6 +89,7 @@
       "type": "object",
       "required": [
         "id",
+        "label",
         "question",
         "sketch",
         "sketchAlt",
@@ -98,8 +99,7 @@
         "discriminantPower",
         "traitFrequencyInSpecies",
         "traitRarityAmongTrees",
-        "seasonality",
-        "sources"
+        "seasonality"
       ],
       "additionalProperties": false,
       "properties": {
@@ -107,6 +107,11 @@
           "type": "string",
           "pattern": "^[a-z][a-z0-9-]*$",
           "description": "Identifiant kebab-case, unique dans l'espèce. Ex : leaf-asymmetric-base"
+        },
+        "label": {
+          "type": "string",
+          "maxLength": 60,
+          "description": "Étiquette courte (≤ 60 char) du trait, en français, pour récap, carnet et listes. Ex : Base de feuille asymétrique"
         },
         "question": {
           "type": "string",
@@ -131,6 +136,10 @@
         "extendedHelp": {
           "type": "string",
           "description": "Explication enrichie affichée sur 'En savoir plus' ou 'Je ne sais pas'"
+        },
+        "sketchCaption": {
+          "type": "string",
+          "description": "Légende du croquis affichée sous l'image (texte HTML, externalisé du SVG pour traduction et accessibilité)."
         },
         "category": {
           "type": "string",
@@ -186,11 +195,12 @@
               "inpn",
               "coste",
               "rameau",
+              "wikipedia",
               "wikimedia-commons",
               "other"
             ]
           },
-          "description": "Sources documentaires ayant servi à établir ce trait. Au moins 2 sources concordantes requis. Hiérarchie : flora-gallica > tela-botanica > inpn > coste > rameau"
+          "description": "Sources documentaires ayant servi à établir ce trait. Au moins 2 sources concordantes recommandées. Hiérarchie : flora-gallica > tela-botanica > inpn > coste > rameau. NOTE temporaire (avril 2026) : champ rendu non-obligatoire le temps de rétro-documenter les 4 fiches pilotes ; redeviendra requis pour la v1 publique."
         }
       },
       "not": {
